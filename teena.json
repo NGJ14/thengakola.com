@@ -1,0 +1,234 @@
+[
+	[
+		{
+			"title": "Differential Equations & Transforms",
+			"venue": "PRP309",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "Quantitative Skills Practice I",
+			"venue": "PRP308",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "Structured & Object Oriented Programming",
+			"venue": "PRP111",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "Engineering Physics",
+			"venue": "PRP107",
+			"timings": [
+				11,
+				0,
+				11,
+				50
+			]
+		},
+		{
+			"title": "Engineering Physics Lab",
+			"venue": "TT420",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "Engineering Physics",
+			"venue": "PRP107",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "Technical English Communication",
+			"venue": "PRP112",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "Data Structures & Algorithms",
+			"venue": "PRP128",
+			"timings": [
+				11,
+				0,
+				11,
+				50
+			]
+		},
+		{
+			"title": "Differential Equations & Transforms",
+			"venue": "PRP309",
+			"timings": [
+				12,
+				0,
+				12,
+				50
+			]
+		},
+		{
+			"title": "Structured & Object Oriented Programming Lab",
+			"venue": "SJT417",
+			"timings": [
+				17,
+				40,
+				18,
+				30
+			]
+		}
+	],
+	[
+		{
+			"title": "Data Structures & Algorithms",
+			"venue": "PRP128",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "Differential Equations & Transforms",
+			"venue": "PRP309",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "Quantitative Skills Practice I",
+			"venue": "PRP308",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "Technical English Communication Lab",
+			"venue": "SJT519",
+			"timings": [
+				17,
+				40,
+				18,
+				30
+			]
+		}
+	],
+	[
+		{
+			"title": "Structured & Object Oriented Programming",
+			"venue": "PRP111",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "Engineering Physics",
+			"venue": "PRP107",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "Structured & Object Oriented Programming Lab",
+			"venue": "SJT417",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "Data Structures & Algorithms Lab",
+			"venue": "PRP118a",
+			"timings": [
+				15,
+				51,
+				16,
+				40
+			]
+		}
+	],
+	[
+		{
+			"title": "Technical English Communication",
+			"venue": "PRP112",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "Data Structures & Algorithms",
+			"venue": "PRP128",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "Differential Equations & Transforms",
+			"venue": "PRP309",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "Quantitative Skills Practice I",
+			"venue": "PRP308",
+			"timings": [
+				11,
+				0,
+				11,
+				50
+			]
+		}
+	],
+	[],
+	[]
+]
