@@ -11,8 +11,12 @@ $(".logo").dblclick(function () {
       $(".main").css("opacity", `${step3}`);
       $(".appbar").css("opacity", `${step3}`);
     }
+    setTimeout(function () {
+      $(".logo").css("display", "none");
+    }, 1000);
   }, 30);
 });
+
 
 $(".fa-chevron-down").click(function () {
   $(this).toggleClass("rotate");
@@ -114,6 +118,16 @@ function writeData(name, periodsToday) {
     card.find(".bottom").css("display", "none");
     card.find(".currentBox").css("border-bottom", "3px solid var(--accent)");
     card.find(".currentBox").css("border-bottom-right-radius", "20px");
+  }
+  if (period["timings"].length != 0) {
+    color = "free";
+    card.find(".bottom").find("i").css("visibility", "visible");
+    card.find(".timeloc").css("display", "");
+    card.find(".subName").css("display", "");
+    card.find(".right").css("display", "");
+    card.find(".bottom").css("display", "");
+    card.find(".currentBox").css("border-bottom", "none");
+    card.find(".currentBox").css("border-bottom-right-radius", "0");
   }
   card.find(".avatar").css("border", `3px dashed var(--${color})`);
   card.find(".right").css("border", `3px solid var(--${color})`);

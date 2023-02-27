@@ -1,6 +1,16 @@
 [
 	[
 		{
+			"title": "English",
+			"venue": "MB306A",
+			"timings": [
+				15,
+				0,
+				15,
+				50
+			]
+		},
+		{
 			"title": "BEEE",
 			"venue": "SMVG10",
 			"timings": [
@@ -22,7 +32,7 @@
 		},
 		{
 			"title": "QSP",
-			"venue": "TT415",
+			"venue": "PRP122",
 			"timings": [
 				18,
 				0,
@@ -32,16 +42,6 @@
 		}
 	],
 	[
-		{
-			"title": "English",
-			"venue": "MB309",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
 		{
 			"title": "Chemistry",
 			"venue": "PRP120",
@@ -54,7 +54,7 @@
 		},
 		{
 			"title": "QSP",
-			"venue": "TT415",
+			"venue": "PRP122",
 			"timings": [
 				15,
 				0,
@@ -63,8 +63,18 @@
 			]
 		},
 		{
+			"title": "Sociology",
+			"venue": "PRP209",
+			"timings": [
+				16,
+				0,
+				16,
+				50
+			]
+		},
+		{
 			"title": "Differential Equations",
-			"venue": "TT414",
+			"venue": "PRP122",
 			"timings": [
 				17,
 				0,
@@ -76,11 +86,21 @@
 	[
 		{
 			"title": "Differential Equations",
-			"venue": "TT414",
+			"venue": "PRP122",
 			"timings": [
 				14,
 				0,
 				14,
+				50
+			]
+		},
+		{
+			"title": "English",
+			"venue": "MB306A",
+			"timings": [
+				16,
+				0,
+				16,
 				50
 			]
 		},
@@ -96,16 +116,6 @@
 		}
 	],
 	[
-		{
-			"title": "English",
-			"venue": "MB309",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
 		{
 			"title": "Java",
 			"venue": "MB307A",
@@ -138,7 +148,7 @@
 		},
 		{
 			"title": "QSP",
-			"venue": "TT415",
+			"venue": "PRP122",
 			"timings": [
 				16,
 				0,
@@ -147,35 +157,45 @@
 			]
 		},
 		{
+			"title": "Sociology",
+			"venue": "PRP209",
+			"timings": [
+				17,
+				0,
+				17,
+				50
+			]
+		},
+		{
 			"title": "Differential Equations",
-			"venue": "TT414",
+			"venue": "PRP122",
 			"timings": [
 				18,
 				0,
-				18,
-				50
+				11,
+				30
 			]
 		}
 	],
 	[
 		{
+			"title": "Sociology",
+			"venue": "PRP209",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
 			"title": "Differential Equations",
-			"venue": "TT414",
+			"venue": "PRP122",
 			"timings": [
 				15,
 				0,
 				9,
 				40
-			]
-		},
-		{
-			"title": "English Lab",
-			"venue": "SJT701",
-			"timings": [
-				15,
-				51,
-				17,
-				30
 			]
 		}
 	],

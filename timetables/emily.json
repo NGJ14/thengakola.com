@@ -91,6 +91,16 @@
 				11,
 				50
 			]
+		},
+		{
+			"title": "Sociology",
+			"venue": "PRP209",
+			"timings": [
+				16,
+				0,
+				16,
+				50
+			]
 		}
 	],
 	[
@@ -167,10 +177,10 @@
 			]
 		},
 		{
-			"title": "DSA Lab",
-			"venue": "PRP118a",
+			"title": "Sociology",
+			"venue": "PRP209",
 			"timings": [
-				14,
+				17,
 				0,
 				15,
 				40
@@ -215,6 +225,16 @@
 				11,
 				0,
 				11,
+				50
+			]
+		},
+		{
+			"title": "Sociology",
+			"venue": "PRP209",
+			"timings": [
+				14,
+				0,
+				14,
 				50
 			]
 		},

@@ -1,6 +1,16 @@
 [
 	[
 		{
+			"title": "QSP",
+			"venue": "PRP111",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
 			"title": "BEEE",
 			"venue": "PRP308",
 			"timings": [
@@ -12,7 +22,7 @@
 		},
 		{
 			"title": "Differential Equations",
-			"venue": "PRP104",
+			"venue": "PRP308",
 			"timings": [
 				14,
 				0,
@@ -21,11 +31,11 @@
 			]
 		},
 		{
-			"title": "QSP",
-			"venue": "PRP127",
+			"title": "DSA Lab",
+			"venue": "SJT217",
 			"timings": [
 				15,
-				0,
+				51,
 				17,
 				30
 			]
@@ -74,7 +84,7 @@
 		},
 		{
 			"title": "Differential Equations",
-			"venue": "PRP104",
+			"venue": "PRP308",
 			"timings": [
 				18,
 				0,
@@ -95,22 +105,22 @@
 			]
 		},
 		{
-			"title": "Differential Equations",
-			"venue": "PRP104",
+			"title": "QSP",
+			"venue": "PRP111",
 			"timings": [
-				15,
+				10,
 				0,
-				15,
+				10,
 				50
 			]
 		},
 		{
-			"title": "QSP",
-			"venue": "PRP127",
+			"title": "Differential Equations",
+			"venue": "PRP308",
 			"timings": [
-				16,
+				15,
 				0,
-				16,
+				15,
 				50
 			]
 		},
@@ -179,6 +189,16 @@
 			]
 		},
 		{
+			"title": "QSP",
+			"venue": "PRP111",
+			"timings": [
+				11,
+				0,
+				11,
+				50
+			]
+		},
+		{
 			"title": "BEEE",
 			"venue": "PRP308",
 			"timings": [
@@ -190,21 +210,11 @@
 		},
 		{
 			"title": "Differential Equations",
-			"venue": "PRP104",
+			"venue": "PRP308",
 			"timings": [
 				16,
 				0,
 				16,
-				50
-			]
-		},
-		{
-			"title": "QSP",
-			"venue": "PRP127",
-			"timings": [
-				17,
-				0,
-				17,
 				50
 			]
 		}
