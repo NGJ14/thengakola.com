@@ -1,7 +1,7 @@
 [
 	[
 		{
-			"title": "Differential Equations & Transforms",
+			"title": "Differential Equations",
 			"venue": "MB307",
 			"timings": [
 				8,
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"title": "Quantitative Skills Practice I",
+			"title": "QSP",
 			"venue": "CDMM401",
 			"timings": [
 				9,
@@ -21,7 +21,7 @@
 			]
 		},
 		{
-			"title": "Basic Electrical & Electronics Engineering",
+			"title": "BEEE",
 			"venue": "MB306A",
 			"timings": [
 				10,
@@ -41,103 +41,103 @@
 			]
 		},
 		{
-			"title": "Computer Programming: Java Lab",
+			"title": "Java Lab",
 			"venue": "GDN153",
 			"timings": [
 				15,
 				51,
-				16,
-				40
-			]
-		}
-	],
-	[
-		{
-			"title": "Mechanics",
-			"venue": "CDMM401",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "Technical English Communication",
-			"venue": "CDMM401",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "Construction Materials",
-			"venue": "CDMM401",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "Differential Equations & Transforms",
-			"venue": "MB307",
-			"timings": [
-				12,
-				0,
-				12,
-				50
-			]
-		}
-	],
-	[
-		{
-			"title": "Differential Equations & Transforms",
-			"venue": "MB307",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "Quantitative Skills Practice I",
-			"venue": "CDMM401",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "Technical English Communication Lab",
-			"venue": "TT116",
-			"timings": [
-				14,
-				0,
-				14,
-				50
-			]
-		},
-		{
-			"title": "Computer Programming: Java Lab",
-			"venue": "GDN153",
-			"timings": [
 				17,
-				40,
-				18,
 				30
 			]
 		}
 	],
 	[
 		{
-			"title": "Basic Electrical & Electronics Engineering",
+			"title": "Mechanics",
+			"venue": "CDMM401",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "English",
+			"venue": "CDMM401",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "Construction Materials",
+			"venue": "CDMM401",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "Differential Equations",
+			"venue": "MB307",
+			"timings": [
+				12,
+				0,
+				12,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "Differential Equations",
+			"venue": "MB307",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "QSP",
+			"venue": "CDMM401",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "English Lab",
+			"venue": "TT116",
+			"timings": [
+				14,
+				0,
+				15,
+				40
+			]
+		},
+		{
+			"title": "Java Lab",
+			"venue": "GDN153",
+			"timings": [
+				17,
+				40,
+				19,
+				20
+			]
+		}
+	],
+	[
+		{
+			"title": "BEEE",
 			"venue": "MB306A",
 			"timings": [
 				8,
@@ -157,7 +157,7 @@
 			]
 		},
 		{
-			"title": "Technical English Communication",
+			"title": "English",
 			"venue": "CDMM401",
 			"timings": [
 				10,
@@ -167,7 +167,7 @@
 			]
 		},
 		{
-			"title": "Computer Programming: Java",
+			"title": "Java",
 			"venue": "CDMM401",
 			"timings": [
 				11,
@@ -189,7 +189,7 @@
 			]
 		},
 		{
-			"title": "Differential Equations & Transforms",
+			"title": "Differential Equations",
 			"venue": "MB307",
 			"timings": [
 				10,
@@ -199,7 +199,7 @@
 			]
 		},
 		{
-			"title": "Quantitative Skills Practice I",
+			"title": "QSP",
 			"venue": "CDMM401",
 			"timings": [
 				11,
@@ -209,7 +209,7 @@
 			]
 		},
 		{
-			"title": "Basic Electrical & Electronics Engineering",
+			"title": "BEEE",
 			"venue": "MB306A",
 			"timings": [
 				12,
@@ -219,13 +219,13 @@
 			]
 		},
 		{
-			"title": "Basic Electrical & Electronics Engineering Lab",
+			"title": "BEEE Lab",
 			"venue": "TT344",
 			"timings": [
 				15,
 				51,
-				16,
-				40
+				17,
+				30
 			]
 		}
 	],

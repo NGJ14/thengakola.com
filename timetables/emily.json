@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"title": "Soft Skills",
+			"title": "QSP",
 			"venue": "PRP309",
 			"timings": [
 				9,
@@ -31,23 +31,23 @@
 			]
 		},
 		{
-			"title": "Technical English Lab",
+			"title": "English Lab",
 			"venue": "SJT721",
 			"timings": [
 				14,
 				0,
-				14,
-				50
+				15,
+				40
 			]
 		},
 		{
-			"title": "Engineering Physics Lab",
+			"title": "Physics Lab",
 			"venue": "TT420",
 			"timings": [
 				15,
 				51,
-				16,
-				40
+				17,
+				30
 			]
 		},
 		{
@@ -56,14 +56,14 @@
 			"timings": [
 				17,
 				40,
-				18,
-				30
+				19,
+				20
 			]
 		}
 	],
 	[
 		{
-			"title": "Technical English",
+			"title": "English",
 			"venue": "PRP214",
 			"timings": [
 				8,
@@ -73,7 +73,7 @@
 			]
 		},
 		{
-			"title": "Engineering Physics",
+			"title": "Physics",
 			"venue": "PRP220",
 			"timings": [
 				10,
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"title": "Differential Eqns",
+			"title": "Differential Equations",
 			"venue": "PRP220",
 			"timings": [
 				11,
@@ -95,7 +95,7 @@
 	],
 	[
 		{
-			"title": "Differential Eqns",
+			"title": "Differential Equations",
 			"venue": "PRP220",
 			"timings": [
 				8,
@@ -115,7 +115,7 @@
 			]
 		},
 		{
-			"title": "Soft Skills",
+			"title": "QSP",
 			"venue": "PRP309",
 			"timings": [
 				10,
@@ -137,7 +137,7 @@
 			]
 		},
 		{
-			"title": "Technical English",
+			"title": "English",
 			"venue": "PRP214",
 			"timings": [
 				9,
@@ -147,7 +147,7 @@
 			]
 		},
 		{
-			"title": "Engineering Physics",
+			"title": "Physics",
 			"venue": "PRP220",
 			"timings": [
 				11,
@@ -157,7 +157,7 @@
 			]
 		},
 		{
-			"title": "Differential Eqns",
+			"title": "Differential Equations",
 			"venue": "PRP220",
 			"timings": [
 				12,
@@ -172,14 +172,14 @@
 			"timings": [
 				14,
 				0,
-				14,
-				50
+				15,
+				40
 			]
 		}
 	],
 	[
 		{
-			"title": "Engineering Physics",
+			"title": "Physics",
 			"venue": "PRP220",
 			"timings": [
 				8,
@@ -189,7 +189,7 @@
 			]
 		},
 		{
-			"title": "Differential Eqns",
+			"title": "Differential Equations",
 			"venue": "PRP220",
 			"timings": [
 				9,
@@ -209,7 +209,7 @@
 			]
 		},
 		{
-			"title": "Soft Skills",
+			"title": "QSP",
 			"venue": "PRP309",
 			"timings": [
 				11,
@@ -224,8 +224,8 @@
 			"timings": [
 				15,
 				51,
-				16,
-				40
+				17,
+				30
 			]
 		}
 	],

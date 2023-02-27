@@ -1,17 +1,7 @@
 [
 	[
 		{
-			"title": "Structured & Object Oriented Programming Lab",
-			"venue": "PRP118a",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "Data Structures & Algorithms",
+			"title": "DSA",
 			"venue": "PRP126",
 			"timings": [
 				14,
@@ -21,7 +11,7 @@
 			]
 		},
 		{
-			"title": "Quantitative Skills Practice I",
+			"title": "QSP",
 			"venue": "PRP221",
 			"timings": [
 				15,
@@ -31,7 +21,7 @@
 			]
 		},
 		{
-			"title": "Basic Electrical & Electronics Engineering",
+			"title": "BEEE",
 			"venue": "PRP313",
 			"timings": [
 				16,
@@ -41,29 +31,19 @@
 			]
 		},
 		{
-			"title": "Differential Equations & Transforms",
+			"title": "Differential Equations",
 			"venue": "PRP220",
 			"timings": [
 				17,
 				0,
-				17,
-				50
+				9,
+				40
 			]
 		}
 	],
 	[
 		{
-			"title": "Basic Electrical & Electronics Engineering Lab",
-			"venue": "SJT520",
-			"timings": [
-				9,
-				51,
-				10,
-				40
-			]
-		},
-		{
-			"title": "Differential Equations & Transforms",
+			"title": "Differential Equations",
 			"venue": "PRP220",
 			"timings": [
 				14,
@@ -73,7 +53,7 @@
 			]
 		},
 		{
-			"title": "Structured & Object Oriented Programming",
+			"title": "OOPS",
 			"venue": "PRP318",
 			"timings": [
 				15,
@@ -83,19 +63,19 @@
 			]
 		},
 		{
-			"title": "Technical English Communication",
+			"title": "English",
 			"venue": "PRP105",
 			"timings": [
 				16,
 				0,
-				16,
-				50
+				11,
+				30
 			]
 		}
 	],
 	[
 		{
-			"title": "Data Structures & Algorithms",
+			"title": "DSA",
 			"venue": "PRP126",
 			"timings": [
 				15,
@@ -105,7 +85,7 @@
 			]
 		},
 		{
-			"title": "Quantitative Skills Practice I",
+			"title": "QSP",
 			"venue": "PRP221",
 			"timings": [
 				16,
@@ -115,7 +95,7 @@
 			]
 		},
 		{
-			"title": "Basic Electrical & Electronics Engineering",
+			"title": "BEEE",
 			"venue": "PRP313",
 			"timings": [
 				17,
@@ -125,7 +105,7 @@
 			]
 		},
 		{
-			"title": "Differential Equations & Transforms",
+			"title": "Differential Equations",
 			"venue": "PRP220",
 			"timings": [
 				18,
@@ -137,27 +117,17 @@
 	],
 	[
 		{
-			"title": "Technical English Communication Lab",
-			"venue": "SJT519",
-			"timings": [
-				9,
-				51,
-				10,
-				40
-			]
-		},
-		{
-			"title": "Data Structures & Algorithms Lab",
+			"title": "DSA Lab",
 			"venue": "PRP118a",
 			"timings": [
 				11,
 				40,
-				12,
-				30
+				13,
+				20
 			]
 		},
 		{
-			"title": "Basic Electrical & Electronics Engineering",
+			"title": "BEEE",
 			"venue": "PRP313",
 			"timings": [
 				14,
@@ -167,7 +137,7 @@
 			]
 		},
 		{
-			"title": "Differential Equations & Transforms",
+			"title": "Differential Equations",
 			"venue": "PRP220",
 			"timings": [
 				15,
@@ -177,29 +147,19 @@
 			]
 		},
 		{
-			"title": "Structured & Object Oriented Programming",
+			"title": "OOPS",
 			"venue": "PRP318",
 			"timings": [
 				16,
 				0,
-				16,
-				50
+				11,
+				30
 			]
 		}
 	],
 	[
 		{
-			"title": "Structured & Object Oriented Programming Lab",
-			"venue": "PRP118a",
-			"timings": [
-				11,
-				40,
-				12,
-				30
-			]
-		},
-		{
-			"title": "Technical English Communication",
+			"title": "English",
 			"venue": "PRP105",
 			"timings": [
 				14,
@@ -209,7 +169,7 @@
 			]
 		},
 		{
-			"title": "Data Structures & Algorithms",
+			"title": "DSA",
 			"venue": "PRP126",
 			"timings": [
 				16,
@@ -219,13 +179,13 @@
 			]
 		},
 		{
-			"title": "Quantitative Skills Practice I",
+			"title": "QSP",
 			"venue": "PRP221",
 			"timings": [
 				17,
 				0,
-				17,
-				50
+				13,
+				20
 			]
 		}
 	],
