@@ -1,7 +1,7 @@
 [
 	[
 		{
-			"title": "Differential Eqns",
+			"title": "Differential Equations",
 			"venue": "SJTG01",
 			"timings": [
 				14,
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"title": "Technical English",
+			"title": "English",
 			"venue": "PRP122",
 			"timings": [
 				15,
@@ -31,7 +31,7 @@
 			]
 		},
 		{
-			"title": "Soft Skills",
+			"title": "QSP",
 			"venue": "SJTG01",
 			"timings": [
 				18,
@@ -43,16 +43,6 @@
 	],
 	[
 		{
-			"title": "OOPS",
-			"venue": "SJT218",
-			"timings": [
-				9,
-				51,
-				10,
-				40
-			]
-		},
-		{
 			"title": "BEEE",
 			"venue": "SJTG01",
 			"timings": [
@@ -63,7 +53,7 @@
 			]
 		},
 		{
-			"title": "Soft Skills",
+			"title": "QSP",
 			"venue": "SJTG01",
 			"timings": [
 				15,
@@ -83,7 +73,7 @@
 			]
 		},
 		{
-			"title": "DLM",
+			"title": "DL & Microprocessors",
 			"venue": "SJTG04",
 			"timings": [
 				17,
@@ -93,39 +83,29 @@
 			]
 		},
 		{
-			"title": "Differential Eqns",
+			"title": "Differential Equations",
 			"venue": "SJTG01",
 			"timings": [
 				18,
 				0,
-				18,
-				50
+				11,
+				30
 			]
 		}
 	],
 	[
 		{
-			"title": "DLM Lab",
-			"venue": "SJT212",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "Technical English Lab",
+			"title": "English Lab",
 			"venue": "TT116",
 			"timings": [
 				9,
 				51,
-				10,
-				40
+				11,
+				30
 			]
 		},
 		{
-			"title": "DLM",
+			"title": "DL & Microprocessors",
 			"venue": "SJTG04",
 			"timings": [
 				14,
@@ -135,7 +115,7 @@
 			]
 		},
 		{
-			"title": "Differential Eqns",
+			"title": "Differential Equations",
 			"venue": "SJTG01",
 			"timings": [
 				15,
@@ -145,35 +125,25 @@
 			]
 		},
 		{
-			"title": "Technical English",
+			"title": "English",
 			"venue": "PRP122",
 			"timings": [
 				16,
 				0,
-				16,
-				50
+				9,
+				40
 			]
 		}
 	],
 	[
-		{
-			"title": "OOPS",
-			"venue": "SJT218",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
 		{
 			"title": "BEEE Lab",
 			"venue": "TT044",
 			"timings": [
 				11,
 				40,
-				12,
-				30
+				13,
+				20
 			]
 		},
 		{
@@ -187,13 +157,13 @@
 			]
 		},
 		{
-			"title": "Soft Skills",
+			"title": "QSP",
 			"venue": "SJTG01",
 			"timings": [
 				16,
 				0,
-				16,
-				50
+				9,
+				40
 			]
 		}
 	],
@@ -209,7 +179,7 @@
 			]
 		},
 		{
-			"title": "DLM",
+			"title": "DL & Microprocessors",
 			"venue": "SJTG04",
 			"timings": [
 				15,
@@ -219,7 +189,7 @@
 			]
 		},
 		{
-			"title": "Differential Eqns",
+			"title": "Differential Equations",
 			"venue": "SJTG01",
 			"timings": [
 				16,

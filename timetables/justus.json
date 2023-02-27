@@ -1,7 +1,7 @@
 [
 	[
 		{
-			"title": "Differential Equations & Transforms",
+			"title": "Differential Equations",
 			"venue": "TT415",
 			"timings": [
 				8,
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"title": "Quantitative Skills Practice I",
+			"title": "QSP",
 			"venue": "TT416",
 			"timings": [
 				9,
@@ -31,7 +31,7 @@
 			]
 		},
 		{
-			"title": "Engineering Chemistry",
+			"title": "Chemistry",
 			"venue": "PRP123",
 			"timings": [
 				11,
@@ -41,7 +41,7 @@
 			]
 		},
 		{
-			"title": "Computer Programming: Java",
+			"title": "Java",
 			"venue": "PRP120",
 			"timings": [
 				12,
@@ -51,19 +51,19 @@
 			]
 		},
 		{
-			"title": "Technical English Communication Lab",
+			"title": "English Lab",
 			"venue": "TT306",
 			"timings": [
 				15,
 				51,
-				16,
-				40
+				17,
+				30
 			]
 		}
 	],
 	[
 		{
-			"title": "Engineering Chemistry",
+			"title": "Chemistry",
 			"venue": "PRP123",
 			"timings": [
 				8,
@@ -73,7 +73,7 @@
 			]
 		},
 		{
-			"title": "Technical English Communication",
+			"title": "English",
 			"venue": "TT414",
 			"timings": [
 				9,
@@ -93,7 +93,7 @@
 			]
 		},
 		{
-			"title": "Differential Equations & Transforms",
+			"title": "Differential Equations",
 			"venue": "TT415",
 			"timings": [
 				12,
@@ -115,7 +115,7 @@
 			]
 		},
 		{
-			"title": "Differential Equations & Transforms",
+			"title": "Differential Equations",
 			"venue": "TT415",
 			"timings": [
 				9,
@@ -125,7 +125,7 @@
 			]
 		},
 		{
-			"title": "Quantitative Skills Practice I",
+			"title": "QSP",
 			"venue": "TT416",
 			"timings": [
 				10,
@@ -135,13 +135,13 @@
 			]
 		},
 		{
-			"title": "Computer Programming: Java Lab",
+			"title": "Java Lab",
 			"venue": "TT238",
 			"timings": [
 				15,
 				51,
-				16,
-				40
+				17,
+				30
 			]
 		}
 	],
@@ -157,7 +157,7 @@
 			]
 		},
 		{
-			"title": "Engineering Chemistry",
+			"title": "Chemistry",
 			"venue": "PRP123",
 			"timings": [
 				9,
@@ -167,7 +167,7 @@
 			]
 		},
 		{
-			"title": "Technical English Communication",
+			"title": "English",
 			"venue": "TT414",
 			"timings": [
 				10,
@@ -187,13 +187,13 @@
 			]
 		},
 		{
-			"title": "Engineering Chemistry Lab",
+			"title": "Chemistry Lab",
 			"venue": "PRPG07",
 			"timings": [
 				14,
 				0,
-				14,
-				50
+				15,
+				40
 			]
 		}
 	],
@@ -209,7 +209,7 @@
 			]
 		},
 		{
-			"title": "Differential Equations & Transforms",
+			"title": "Differential Equations",
 			"venue": "TT415",
 			"timings": [
 				10,
@@ -219,7 +219,7 @@
 			]
 		},
 		{
-			"title": "Quantitative Skills Practice I",
+			"title": "QSP",
 			"venue": "TT416",
 			"timings": [
 				11,
@@ -239,13 +239,13 @@
 			]
 		},
 		{
-			"title": "Computer Programming: Java Lab",
+			"title": "Java Lab",
 			"venue": "TT238",
 			"timings": [
 				14,
 				0,
-				14,
-				50
+				15,
+				40
 			]
 		}
 	],

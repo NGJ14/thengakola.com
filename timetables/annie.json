@@ -1,7 +1,7 @@
 [
 	[
 		{
-			"title": "Differential Eqns",
+			"title": "Differential Equations",
 			"venue": "MB307",
 			"timings": [
 				8,
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"title": "Soft Skills",
+			"title": "QSP",
 			"venue": "TT416",
 			"timings": [
 				9,
@@ -46,8 +46,8 @@
 			"timings": [
 				15,
 				51,
-				16,
-				40
+				17,
+				30
 			]
 		}
 	],
@@ -63,7 +63,7 @@
 			]
 		},
 		{
-			"title": "Technical English",
+			"title": "English",
 			"venue": "CDMM401",
 			"timings": [
 				9,
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"title": "Differential Eqns",
+			"title": "Differential Equations",
 			"venue": "MB307",
 			"timings": [
 				12,
@@ -95,7 +95,7 @@
 	],
 	[
 		{
-			"title": "Differential Eqns",
+			"title": "Differential Equations",
 			"venue": "MB307",
 			"timings": [
 				9,
@@ -105,7 +105,7 @@
 			]
 		},
 		{
-			"title": "Soft Skills",
+			"title": "QSP",
 			"venue": "TT416",
 			"timings": [
 				10,
@@ -115,13 +115,13 @@
 			]
 		},
 		{
-			"title": "Technical English Lab",
+			"title": "English Lab",
 			"venue": "TT116",
 			"timings": [
 				14,
 				0,
-				14,
-				50
+				15,
+				40
 			]
 		},
 		{
@@ -130,8 +130,8 @@
 			"timings": [
 				17,
 				40,
-				18,
-				30
+				19,
+				20
 			]
 		}
 	],
@@ -157,7 +157,7 @@
 			]
 		},
 		{
-			"title": "Technical English",
+			"title": "English",
 			"venue": "CDMM401",
 			"timings": [
 				10,
@@ -189,7 +189,7 @@
 			]
 		},
 		{
-			"title": "Differential Eqns",
+			"title": "Differential Equations",
 			"venue": "MB307",
 			"timings": [
 				10,
@@ -199,7 +199,7 @@
 			]
 		},
 		{
-			"title": "Soft Skills",
+			"title": "QSP",
 			"venue": "TT416",
 			"timings": [
 				11,
@@ -224,8 +224,8 @@
 			"timings": [
 				15,
 				51,
-				16,
-				40
+				17,
+				30
 			]
 		}
 	],
