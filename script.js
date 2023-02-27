@@ -65,7 +65,7 @@ function writeData(name, periodsToday) {
   card.find('.location')[0].innerHTML = period['venue'];
 
   // Set upcoming classes
-  var table = $('.' + name).find('table')[0];
+  var table = card.find('table')[0];
   for (i+=2;i<periodsToday.length;i++) {
     next_period = periodsToday[i];
     table.innerHTML += `<tr>
@@ -75,25 +75,28 @@ function writeData(name, periodsToday) {
     </tr>`
   }
 
-  // Set color
-  if (period['timings'].length != 0) {
-    color = 'free'
+  // Change color and visibilities
+  if (period['timings'].length == 0) {
+    color = 'free';
+    card.find('.bottom').find('i').css('visibility', 'hidden');
+    card.find('.timeloc').css('display', 'none');
+    card.find('.subName').css('display', 'none');
   }
-  card.find('avatar')[0].css('border', `3px dashed var(--${color})`);
-  card.find('right')[0].css('border', `3px solid var(--${color})`);
-  card.find('subName')[0].css('border-right', `3px solid var(--${color})`);
-  card.find('subName')[0].css('border-bottom', `3px solid var(--${color})`);
-  card.find('subName')[0].css('border-left', `3px solid var(--${color})`);
-  card.find('subName')[0].css('color', `var(--${color})`);
-  card.find('timeloc')[0].css('color', `var(--${color})`);
-  card.find('time')[0].css('color', `var(--${color})`);
-  card.find('time')[0].css('border-right', `3px solid var(--${color})`);
-  card.find('time')[0].css('border-bottom', `3px solid var(--${color})`);
-  card.find('time')[0].css('border-top', `3px solid var(--${color})`);
-  card.find('location')[0].css('color', `var(--${color})`);
-  card.find('location')[0].css('border-left', `3px solid var(--${color})`);
-  card.find('location')[0].css('border-bottom', `3px solid var(--${color})`);
-  card.find('location')[0].css('border-top', `3px solid var(--${color})`);
+  card.find('.avatar').css('border', `3px dashed var(--${color})`);
+  card.find('.right').css('border', `3px solid var(--${color})`);
+  card.find('.subName').css('border-right', `3px solid var(--${color})`);
+  card.find('.subName').css('border-bottom', `3px solid var(--${color})`);
+  card.find('.subName').css('border-left', `3px solid var(--${color})`);
+  card.find('.subName').css('color', `var(--${color})`);
+  card.find('.timeloc').css('color', `var(--${color})`);
+  card.find('.time').css('color', `var(--${color})`);
+  card.find('.time').css('border-right', `3px solid var(--${color})`);
+  card.find('.time').css('border-bottom', `3px solid var(--${color})`);
+  card.find('.time').css('border-top', `3px solid var(--${color})`);
+  card.find('.location').css('color', `var(--${color})`);
+  card.find('.location').css('border-left', `3px solid var(--${color})`);
+  card.find('.location').css('border-bottom', `3px solid var(--${color})`);
+  card.find('.location').css('border-top', `3px solid var(--${color})`);
 }
 
 
