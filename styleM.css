@@ -36,6 +36,7 @@
 body{
     font-family: 'Tilt Neon', cursive;
     background: url('./images/appBG.jpg');
+    background-attachment: fixed;
 }
 i{
     color: var(--accent);
