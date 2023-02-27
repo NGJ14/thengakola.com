@@ -8,7 +8,8 @@ $(".fa-chevron-down").click(function () {
 });
 
 
-function setData(name, day) {
+function setData(name) {
+  let day = (now.getDay() - 1) % 7;
   fetch('./timetables/' + name + '.json')
     .then((response) => response.json())
     .then((json) => writeData(name, json[day]));
@@ -26,6 +27,7 @@ function createTimeString(timings) {
 }
 
 function writeData(name, periodsToday) {
+  console.log('processing ' + name + '...');
   var period = {
     'title': 'No more today, enjoy!',
     'venue': '',
@@ -43,9 +45,7 @@ function writeData(name, periodsToday) {
     if (end < now) {
       break
     } else {
-      if (start <= now) {
-        period = current_period;
-      }
+      period = current_period;
     }
   }
 
@@ -70,5 +70,23 @@ function writeData(name, periodsToday) {
   }
 }
 
+
+const nameList = [
+  'yami',
+  'teena',
+  'neha',
+  'emily',
+  'annie',
+  'merlin',
+  'niranjana',
+  'arsha',
+  'rohan',
+  'georgy',
+  'justus',
+  'naveen'
+]
+
 const now = new Date(Date.now());
-setData('yami', 0);
+for (name of nameList) {
+  setData(name);
+}
