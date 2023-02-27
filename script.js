@@ -11,21 +11,7 @@ $(".logo").dblclick(function () {
       $(".main").css("opacity", `${step3}`);
       $(".appbar").css("opacity", `${step3}`);
     }
-
   }, 30);
-
-  var step3 = 0;
-
-  setTimeout(function () {
-    setInterval(function () {
-      if ($(".logo").css("opacity") <= "0") {
-        step3 += 0.04;
-        $(".main").css("opacity", `${step3}`);
-      }
-      $(".appbar").css("opacity", `${step3}`);
-    }, 50);
-    $(".logo").css("display", "none");
-  }, 999);
 });
 
 $(".fa-chevron-down").click(function () {
