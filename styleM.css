@@ -45,7 +45,7 @@ i{
 }
 .appbar{
     background: url('./images/titlebg.jpg');
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: auto;
     height: 50px;
     width: 100%;
@@ -91,7 +91,8 @@ i{
 }
 .fa-chevron-down{
     color:var(--accent);
-    padding: 4px 30px;
+    /* background: white; */
+    padding: 4px 48% ;
     animation: rotation 1s ;
     animation-play-state: paused;
     z-index: 0;

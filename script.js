@@ -1,8 +1,3 @@
-AOS.init({
-  offset: 75,
-  duration: 2000,
-});
-
 $(".fa-chevron-down").click(function () {
   $(this).toggleClass("rotate");
 });
