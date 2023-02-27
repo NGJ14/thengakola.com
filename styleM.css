@@ -35,7 +35,7 @@
 }
 body{
     font-family: 'Tilt Neon', cursive;
-    background: url('./appBG.jpg');
+    background: url('./images/appBG.jpg');
 }
 i{
     color: var(--accent);
