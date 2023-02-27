@@ -33,6 +33,7 @@ function writeData(name, periodsToday) {
     'venue': '',
     'timings': []
   };
+  var color = 'to-be-free';
 
   // Find ongoing period
   for (var i = periodsToday.length-1; i>=0; i--) {
@@ -42,21 +43,26 @@ function writeData(name, periodsToday) {
     let start = new Date(now.getFullYear(), now.getMonth(), now.getDate(), timings[0], timings[1], 0);
     let end = new Date(now.getFullYear(), now.getMonth(), now.getDate(), timings[2], timings[3], 0);
 
-    if (end < now) {
-      break
-    } else {
+    if (end > now) {
+      if (start <= now) {
+        color = 'busy';
+      }
       period = current_period;
+    } else {
+      break
     }
   }
 
+  const card = $('.' +  name);
+
   // Set class title
-  $('.' + name).find('.subName')[0].innerHTML = period['title'];
+  card.find('.subName')[0].innerHTML = period['title'];
 
   // Set class timings
-  $('.' + name).find('.time')[0].innerHTML = createTimeString(period['timings']);
+  card.find('.time')[0].innerHTML = createTimeString(period['timings']);
 
   // Set class location
-  $('.' + name).find('.location')[0].innerHTML = period['venue'];
+  card.find('.location')[0].innerHTML = period['venue'];
 
   // Set upcoming classes
   var table = $('.' + name).find('table')[0];
@@ -68,6 +74,26 @@ function writeData(name, periodsToday) {
       <td>${next_period['title']}</td>
     </tr>`
   }
+
+  // Set color
+  if (period['timings'].length != 0) {
+    color = 'free'
+  }
+  card.find('avatar')[0].css('border', `3px dashed var(--${color})`);
+  card.find('right')[0].css('border', `3px solid var(--${color})`);
+  card.find('subName')[0].css('border-right', `3px solid var(--${color})`);
+  card.find('subName')[0].css('border-bottom', `3px solid var(--${color})`);
+  card.find('subName')[0].css('border-left', `3px solid var(--${color})`);
+  card.find('subName')[0].css('color', `var(--${color})`);
+  card.find('timeloc')[0].css('color', `var(--${color})`);
+  card.find('time')[0].css('color', `var(--${color})`);
+  card.find('time')[0].css('border-right', `3px solid var(--${color})`);
+  card.find('time')[0].css('border-bottom', `3px solid var(--${color})`);
+  card.find('time')[0].css('border-top', `3px solid var(--${color})`);
+  card.find('location')[0].css('color', `var(--${color})`);
+  card.find('location')[0].css('border-left', `3px solid var(--${color})`);
+  card.find('location')[0].css('border-bottom', `3px solid var(--${color})`);
+  card.find('location')[0].css('border-top', `3px solid var(--${color})`);
 }
 
 

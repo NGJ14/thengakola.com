@@ -5,12 +5,10 @@
     /* --theme:paleturquoise; */
     /* --theme:palevioletred; */
     /* --theme:palegoldenrod; */
-    --theme:rgb(149, 216, 149);
     --free:rgb(149, 216, 149);
-    --theme: rgb(236, 116, 116);
     --busy: rgb(236, 116, 116);
-    --status: rgb(149, 216, 149);
-    --status: rgb(236, 116, 116);
+    --to-be-busy: rgb(233, 197, 98);
+    --status: var(--free);
     /* --accent: palegoldenrod; */
     --accent:lightgray;
 }
@@ -87,7 +85,7 @@ i{
     border-top-right-radius: 0%;
     border-top-left-radius: 20px;
     border-bottom: none;
-    /* border: 2px solid var(--theme); */
+    /* border: 2px solid var(--status); */
     
 }
 .fa-chevron-down{
@@ -107,7 +105,6 @@ i{
     object-fit: contain;
     height: 95px;
     margin-left: 4px;
-    border: 5px dashed white;
     border: 3px dashed var(--status);
     border-radius: 40%;
 }
@@ -139,44 +136,37 @@ i{
     /* margin: auto; */
 }
 .subName{
-    border-right: 3px solid var(--theme);
-    border-bottom: 3px solid var(--theme);
-    border-left: 3px solid var(--theme);
+    border-right: 3px solid var(--status);
+    border-bottom: 3px solid var(--status);
+    border-left: 3px solid var(--status);
     padding: 0 5px;
-    color: var(--theme);
-}
-.subName:odd{
-    border-right: 3px solid var(--free);
-    border-bottom: 3px solid var(--free);
-    border-left: 3px solid var(--free);
-    padding: 0 5px;
-    color: var(--free);
+    color: var(--status);
 }
 .timeloc{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
-    color: var(--theme);
+    color: var(--status);
 }
 .time{
     /* border: 3px solid #000; */
-    color: var(--theme);
+    color: var(--status);
     padding: 0 5px;
     margin: 0 2.5px;
-    border-right: 3px solid var(--theme);
-    border-bottom: 3px solid var(--theme);
-    border-top: 3px solid var(--theme);
+    border-right: 3px solid var(--status);
+    border-bottom: 3px solid var(--status);
+    border-top: 3px solid var(--status);
 
 }
 .location{
     /* border: 3px solid #000; */
     padding: 0 5px;
     margin: 0 2.5px;
-    color: var(--theme);
-    border-left: 3px solid var(--theme);
-    border-bottom: 3px solid var(--theme);
-    border-top: 3px solid var(--theme);
+    color: var(--status);
+    border-left: 3px solid var(--status);
+    border-bottom: 3px solid var(--status);
+    border-top: 3px solid var(--status);
 }
 .bottom{
     background: rgb(0, 0, 0);
