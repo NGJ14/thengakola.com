@@ -3,13 +3,16 @@
 
 :root{
     /* --theme:paleturquoise; */
-    --theme:rgb(149, 216, 149);
     /* --theme:palevioletred; */
-    --theme: rgb(236, 116, 116);
     /* --theme:palegoldenrod; */
+    --theme:rgb(149, 216, 149);
+    --free:rgb(149, 216, 149);
+    --theme: rgb(236, 116, 116);
+    --busy: rgb(236, 116, 116);
+    --status: rgb(149, 216, 149);
     --status: rgb(236, 116, 116);
-    /* --status: rgb(149, 216, 149); */
-    --accent: palegoldenrod;
+    /* --accent: palegoldenrod; */
+    --accent:lightgray;
 }
 *{
     margin: 0;
@@ -32,7 +35,7 @@
 }
 body{
     font-family: 'Tilt Neon', cursive;
-    background: #180000;
+    background: url('./appBG.jpg');
 }
 i{
     color: var(--accent);
@@ -56,6 +59,7 @@ i{
     border-bottom-left-radius: 20%;
     position: fixed;
     top: 0;
+    z-index: 20;
 }
 .title{
     font-size: 1.8rem;
@@ -87,10 +91,15 @@ i{
 }
 .fa-chevron-down{
     color:var(--accent);
-    padding: 4px;
+    padding: 4px 30px;
+    animation: rotation 1s ;
+    animation-play-state: paused;
+    z-index: 0;
 }
-.chevron-up{
-    transform: rotate(180);
+@keyframes rotation {
+    to{
+        transform: rotate(180deg);
+    }
 }
 .avatar{
     object-fit: contain;
@@ -134,6 +143,13 @@ i{
     padding: 0 5px;
     color: var(--theme);
 }
+.subName:odd{
+    border-right: 3px solid var(--free);
+    border-bottom: 3px solid var(--free);
+    border-left: 3px solid var(--free);
+    padding: 0 5px;
+    color: var(--free);
+}
 .timeloc{
     display: flex;
     align-items: center;
@@ -161,7 +177,7 @@ i{
     border-top: 3px solid var(--theme);
 }
 .bottom{
-    background: #000000;
+    background: rgb(0, 0, 0);
     /* margin: 0 5px; */
     font-size: 1rem;
     display: flex;
@@ -174,8 +190,121 @@ i{
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 0%;
+    text-align: center;
 }
 
-.bottom{
+.middle{
+    background: #000000;
+    color:var(--accent);
+    border-right: 3px solid var(--accent);
+    border-left: 3px solid var(--accent);
+    border-top: 0;
+    border-bottom: 0;
+    border-radius: 0;
+    padding: 10px;
+    display: none;
+}
+.visible{
+    display:block;
+}
+.hidden{
+    display: none;
+}
+table{
+    width: 100%;
+}
+td{
+    border-radius: 0;
+    border: 1px solid var(--accent);
+    margin: 0;
     text-align: center;
+}
+
+.rotate {
+    -webkit-animation: spin1 0.5s forwards;;
+    -moz-animation: spin1 0.5s forwards;;
+    -o-animation: spin1 0.5s forwards;
+    -ms-animation: spin1 0.5s forwards;
+    animation: spin1 0.5s forwards;
+
+}
+
+@-webkit-keyframes spin1 {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(180deg);
+    }
+}
+
+@-moz-keyframes spin1 {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+
+    to {
+        -moz-transform: rotate(180deg);
+    }
+}
+
+@-o-keyframes spin1 {
+    from {
+        -o-transform: rotate(0deg);
+    }
+
+    to {
+        -o-transform: rotate(180deg);
+    }
+}
+
+@-ms-keyframes spin1 {
+    from {
+        -ms-transform: rotate(0deg);
+    }
+
+    to {
+        -ms-transform: rotate(180deg);
+    }
+}
+
+@-keyframes spin1 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+.slideanim {
+    visibility: hidden;
+    visibility: visible\9;
+    /*For old IE browsers IE6-8 */
+}
+
+.slideanim.slide {
+    visibility: visible;
+    animation: slide 1s;
+}
+
+.slideanim::after {
+    /* useful when its child elements are float:left; */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
