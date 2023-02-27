@@ -51,8 +51,8 @@ function writeData(name, periodsToday) {
     venue: "",
     timings: [],
   };
-  var color = "to-be-free";
 
+  var color = "to-be-busy";
   // Find ongoing period
   for (var i = periodsToday.length - 1; i >= 0; i--) {
     let current_period = periodsToday[i];
@@ -110,6 +110,7 @@ function writeData(name, periodsToday) {
   // Change color and visibilities
   if (period["timings"].length == 0) {
     color = "free";
+    card.find(".avatar").css("border", `3px dashed var(--${color})`);
     card.find(".bottom").find("i").css("visibility", "hidden");
     card.find(".timeloc").css("display", "none");
     card.find(".subName").css("display", "none");
@@ -117,9 +118,7 @@ function writeData(name, periodsToday) {
     card.find(".bottom").css("display", "none");
     card.find(".currentBox").css("border-bottom", "3px solid var(--accent)");
     card.find(".currentBox").css("border-bottom-right-radius", "20px");
-    card.find(".avatar").css("border", `3px dashed var(--${color})`);
   } else {
-    color = "free";
     card.find(".bottom").find("i").css("visibility", "visible");
     card.find(".timeloc").css("display", "");
     card.find(".subName").css("display", "");
