@@ -1,17 +1,7 @@
 [
 	[
 		{
-			"title": "Computer Programming: Java Lab",
-			"venue": "GDN130",
-			"timings": [
-				9,
-				51,
-				10,
-				40
-			]
-		},
-		{
-			"title": "Basic Electrical & Electronics Engineering",
+			"title": "BEEE",
 			"venue": "SMVG10",
 			"timings": [
 				16,
@@ -21,7 +11,7 @@
 			]
 		},
 		{
-			"title": "Engineering Chemistry",
+			"title": "Chemistry",
 			"venue": "PRP120",
 			"timings": [
 				17,
@@ -31,19 +21,19 @@
 			]
 		},
 		{
-			"title": "Quantitative Skills Practice I",
+			"title": "QSP",
 			"venue": "TT415",
 			"timings": [
 				18,
 				0,
-				18,
-				50
+				11,
+				30
 			]
 		}
 	],
 	[
 		{
-			"title": "Technical English Communication",
+			"title": "English",
 			"venue": "MB309",
 			"timings": [
 				8,
@@ -53,17 +43,7 @@
 			]
 		},
 		{
-			"title": "Engineering Chemistry Lab",
-			"venue": "PRPG07",
-			"timings": [
-				9,
-				51,
-				10,
-				40
-			]
-		},
-		{
-			"title": "Engineering Chemistry",
+			"title": "Chemistry",
 			"venue": "PRP120",
 			"timings": [
 				14,
@@ -73,7 +53,7 @@
 			]
 		},
 		{
-			"title": "Quantitative Skills Practice I",
+			"title": "QSP",
 			"venue": "TT415",
 			"timings": [
 				15,
@@ -83,29 +63,19 @@
 			]
 		},
 		{
-			"title": "Differential Equations & Transforms",
+			"title": "Differential Equations",
 			"venue": "TT414",
 			"timings": [
 				17,
 				0,
-				17,
-				50
+				11,
+				30
 			]
 		}
 	],
 	[
 		{
-			"title": "Basic Electrical & Electronics Engineering Lab",
-			"venue": "SJT520",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "Differential Equations & Transforms",
+			"title": "Differential Equations",
 			"venue": "TT414",
 			"timings": [
 				14,
@@ -115,19 +85,19 @@
 			]
 		},
 		{
-			"title": "Basic Electrical & Electronics Engineering",
+			"title": "BEEE",
 			"venue": "SMVG10",
 			"timings": [
 				17,
 				0,
-				17,
-				50
+				9,
+				40
 			]
 		}
 	],
 	[
 		{
-			"title": "Technical English Communication",
+			"title": "English",
 			"venue": "MB309",
 			"timings": [
 				9,
@@ -137,7 +107,7 @@
 			]
 		},
 		{
-			"title": "Computer Programming: Java",
+			"title": "Java",
 			"venue": "MB307A",
 			"timings": [
 				12,
@@ -147,7 +117,7 @@
 			]
 		},
 		{
-			"title": "Basic Electrical & Electronics Engineering",
+			"title": "BEEE",
 			"venue": "SMVG10",
 			"timings": [
 				14,
@@ -157,7 +127,7 @@
 			]
 		},
 		{
-			"title": "Engineering Chemistry",
+			"title": "Chemistry",
 			"venue": "PRP120",
 			"timings": [
 				15,
@@ -167,7 +137,7 @@
 			]
 		},
 		{
-			"title": "Quantitative Skills Practice I",
+			"title": "QSP",
 			"venue": "TT415",
 			"timings": [
 				16,
@@ -177,7 +147,7 @@
 			]
 		},
 		{
-			"title": "Differential Equations & Transforms",
+			"title": "Differential Equations",
 			"venue": "TT414",
 			"timings": [
 				18,
@@ -189,33 +159,23 @@
 	],
 	[
 		{
-			"title": "Computer Programming: Java Lab",
-			"venue": "GDN130",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "Differential Equations & Transforms",
+			"title": "Differential Equations",
 			"venue": "TT414",
 			"timings": [
 				15,
 				0,
-				15,
-				50
+				9,
+				40
 			]
 		},
 		{
-			"title": "Technical English Communication Lab",
+			"title": "English Lab",
 			"venue": "SJT701",
 			"timings": [
 				15,
 				51,
-				16,
-				40
+				17,
+				30
 			]
 		}
 	],
