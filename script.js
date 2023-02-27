@@ -91,6 +91,10 @@ function writeData(name, periodsToday) {
     card.find('.bottom').find('i').css('visibility', 'hidden');
     card.find('.timeloc').css('display', 'none');
     card.find('.subName').css('display', 'none');
+    card.find('.right').css('display', 'none');
+    card.find('.bottom').css('display', 'none');
+    card.find('.currentBox').css('border-bottom', '3px solid var(--accent)');
+    card.find('.currentBox').css('border-bottom-right-radius', '20px');
   }
   card.find('.avatar').css('border', `3px dashed var(--${color})`);
   card.find('.right').css('border', `3px solid var(--${color})`);
