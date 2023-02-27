@@ -1,0 +1,234 @@
+[
+	[
+		{
+			"title": "DSA",
+			"venue": "PRP210",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "Soft Skills",
+			"venue": "PRP309",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "OOPS",
+			"venue": "PRP115",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "Technical English Lab",
+			"venue": "SJT721",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "Engineering Physics Lab",
+			"venue": "TT420",
+			"timings": [
+				15,
+				51,
+				16,
+				40
+			]
+		},
+		{
+			"title": "OOPS Lab",
+			"venue": "SJT621",
+			"timings": [
+				17,
+				40,
+				18,
+				30
+			]
+		}
+	],
+	[
+		{
+			"title": "Technical English",
+			"venue": "PRP214",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "Engineering Physics",
+			"venue": "PRP220",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "Differential Eqns",
+			"venue": "PRP220",
+			"timings": [
+				11,
+				0,
+				11,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "Differential Eqns",
+			"venue": "PRP220",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "DSA",
+			"venue": "PRP210",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "Soft Skills",
+			"venue": "PRP309",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "OOPS",
+			"venue": "PRP115",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "Technical English",
+			"venue": "PRP214",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "Engineering Physics",
+			"venue": "PRP220",
+			"timings": [
+				11,
+				0,
+				11,
+				50
+			]
+		},
+		{
+			"title": "Differential Eqns",
+			"venue": "PRP220",
+			"timings": [
+				12,
+				0,
+				12,
+				50
+			]
+		},
+		{
+			"title": "DSA Lab",
+			"venue": "PRP118a",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "Engineering Physics",
+			"venue": "PRP220",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "Differential Eqns",
+			"venue": "PRP220",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "DSA",
+			"venue": "PRP210",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "Soft Skills",
+			"venue": "PRP309",
+			"timings": [
+				11,
+				0,
+				11,
+				50
+			]
+		},
+		{
+			"title": "OOPS Lab",
+			"venue": "SJT621",
+			"timings": [
+				15,
+				51,
+				16,
+				40
+			]
+		}
+	],
+	[],
+	[]
+]

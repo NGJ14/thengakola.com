@@ -1,0 +1,224 @@
+[
+	[
+		{
+			"title": "Java Lab",
+			"venue": "GDN130",
+			"timings": [
+				9,
+				51,
+				10,
+				40
+			]
+		},
+		{
+			"title": "BEEE",
+			"venue": "SMVG10",
+			"timings": [
+				16,
+				0,
+				16,
+				50
+			]
+		},
+		{
+			"title": "Chemistry",
+			"venue": "PRP120",
+			"timings": [
+				17,
+				0,
+				17,
+				50
+			]
+		},
+		{
+			"title": "Soft Skills",
+			"venue": "TT415",
+			"timings": [
+				18,
+				0,
+				18,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "Technical English",
+			"venue": "MB309",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "Chemistry Lab",
+			"venue": "PRPG07",
+			"timings": [
+				9,
+				51,
+				10,
+				40
+			]
+		},
+		{
+			"title": "Chemistry",
+			"venue": "PRP120",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "Soft Skills",
+			"venue": "TT415",
+			"timings": [
+				15,
+				0,
+				15,
+				50
+			]
+		},
+		{
+			"title": "Differential Eqns",
+			"venue": "TT414",
+			"timings": [
+				17,
+				0,
+				17,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "BEEE Lab",
+			"venue": "SJT520",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "Differential Eqns",
+			"venue": "TT414",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "BEEE",
+			"venue": "SMVG10",
+			"timings": [
+				17,
+				0,
+				17,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "Technical English",
+			"venue": "MB309",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "Computer Programming: Java",
+			"venue": "MB307A",
+			"timings": [
+				12,
+				0,
+				12,
+				50
+			]
+		},
+		{
+			"title": "BEEE",
+			"venue": "SMVG10",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "Chemistry",
+			"venue": "PRP120",
+			"timings": [
+				15,
+				0,
+				15,
+				50
+			]
+		},
+		{
+			"title": "Soft Skills",
+			"venue": "TT415",
+			"timings": [
+				16,
+				0,
+				16,
+				50
+			]
+		},
+		{
+			"title": "Differential Eqns",
+			"venue": "TT414",
+			"timings": [
+				18,
+				0,
+				18,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "Java Lab",
+			"venue": "GDN130",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "Differential Eqns",
+			"venue": "TT414",
+			"timings": [
+				15,
+				0,
+				15,
+				50
+			]
+		},
+		{
+			"title": "Technical English Lab",
+			"venue": "SJT701",
+			"timings": [
+				15,
+				51,
+				16,
+				40
+			]
+		}
+	],
+	[],
+	[]
+]
