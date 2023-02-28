@@ -5,7 +5,7 @@
     --free:rgb(149, 216, 149);
     --busy: rgb(236, 116, 116);
     --to-be-busy: rgb(199, 188, 86);  
-    --accent: lightgray;
+    --accent: rgb(210, 210, 210); 
 }
 
 * {
@@ -45,7 +45,6 @@
 }
 
 body {
-    font-family: 'Tilt Neon', cursive;
     background: white;
     background-attachment: fixed;
 }
@@ -78,9 +77,9 @@ i {
 }
 
 .title {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     color: var(--accent);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Tilt Neon';
     padding: 0 10px;
 }
 

@@ -118,6 +118,8 @@ function writeData(name, periodsToday) {
       card.find(".subName").css("display", "none");
       card.find(".avatar").css("position", "absolute");
       card.find(".avatar").css("right", "15px");
+      // card.find(".right").css("position", "absolute");
+      // card.find(".right").css("left", "15px");
       card.find(".lastClass").css("display", "none");
       card.find(".currentBox").css("border-bottom", "3px solid var(--accent)");
       card.find(".currentBox").css("border-bottom-right-radius", "20px");
