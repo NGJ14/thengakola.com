@@ -1,4 +1,3 @@
-
 $(".logo").dblclick(function () {
   // document.documentElement.requestFullscreen();
   var step1 = 1;
@@ -19,8 +18,17 @@ $(".logo").dblclick(function () {
   }, 30);
 });
 
-$(".fa-chevron-down").click(function () {
-  $(this).toggleClass("rotate");
+state = 1;
+$('.bottom').click(function(){
+  elem = $(this).children("")[0];
+  
+  $({rotation: 180*!state}).animate({rotation: 180*state}, {
+    duration: 500,
+    step: function(now) {
+      $(elem).css({'transform' : 'rotate('+ now +'deg)'});
+    }
+  });
+  state=!state;
 });
 
 $(".fa-chevron-down").click(function () {
