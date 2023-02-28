@@ -16,7 +16,7 @@ $(".logo").dblclick(function () {
     setTimeout(function () {
       $(".logo").css("display", "none");
     }, 1000);
-  }, 30);
+  },15);
 });
 
 $(".fa-chevron-down").click(function () {
