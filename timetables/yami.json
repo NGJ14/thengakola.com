@@ -22,7 +22,7 @@
 		},
 		{
 			"title": "QSP",
-			"venue": "PRP221",
+			"venue": "PRP111",
 			"timings": [
 				15,
 				0,
@@ -39,16 +39,6 @@
 				16,
 				50
 			]
-		},
-		{
-			"title": "Differential Equations",
-			"venue": "PRP220",
-			"timings": [
-				17,
-				0,
-				17,
-				50
-			]
 		}
 	],
 	[
@@ -60,16 +50,6 @@
 				51,
 				11,
 				30
-			]
-		},
-		{
-			"title": "Differential Equations",
-			"venue": "PRP220",
-			"timings": [
-				14,
-				0,
-				14,
-				50
 			]
 		},
 		{
@@ -91,9 +71,29 @@
 				16,
 				50
 			]
+		},
+		{
+			"title": "Differential Equations",
+			"venue": "PRPG26",
+			"timings": [
+				17,
+				0,
+				17,
+				50
+			]
 		}
 	],
 	[
+		{
+			"title": "Differential Equations",
+			"venue": "PRPG26",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
 		{
 			"title": "DSA",
 			"venue": "PRP126",
@@ -106,7 +106,7 @@
 		},
 		{
 			"title": "QSP",
-			"venue": "PRP221",
+			"venue": "PRP111",
 			"timings": [
 				16,
 				0,
@@ -121,16 +121,6 @@
 				17,
 				0,
 				17,
-				50
-			]
-		},
-		{
-			"title": "Differential Equations",
-			"venue": "PRP220",
-			"timings": [
-				18,
-				0,
-				18,
 				50
 			]
 		}
@@ -167,22 +157,22 @@
 			]
 		},
 		{
-			"title": "Differential Equations",
-			"venue": "PRP220",
-			"timings": [
-				15,
-				0,
-				15,
-				50
-			]
-		},
-		{
 			"title": "OOPS",
 			"venue": "PRP318",
 			"timings": [
 				16,
 				0,
 				16,
+				50
+			]
+		},
+		{
+			"title": "Differential Equations",
+			"venue": "PRPG26",
+			"timings": [
+				18,
+				0,
+				18,
 				50
 			]
 		}
@@ -209,6 +199,16 @@
 			]
 		},
 		{
+			"title": "Differential Equations",
+			"venue": "PRPG26",
+			"timings": [
+				15,
+				0,
+				15,
+				50
+			]
+		},
+		{
 			"title": "DSA",
 			"venue": "PRP126",
 			"timings": [
@@ -220,7 +220,7 @@
 		},
 		{
 			"title": "QSP",
-			"venue": "PRP221",
+			"venue": "PRP111",
 			"timings": [
 				17,
 				0,
