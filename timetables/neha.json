@@ -83,13 +83,23 @@
 			]
 		},
 		{
+			"title": "BEEE Lab",
+			"venue": "TT35A",
+			"timings": [
+				15,
+				51,
+				17,
+				30
+			]
+		},
+		{
 			"title": "Differential Equations",
 			"venue": "PRP308",
 			"timings": [
 				18,
 				0,
-				17,
-				30
+				18,
+				50
 			]
 		}
 	],

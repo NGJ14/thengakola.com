@@ -1,6 +1,16 @@
 [
 	[
 		{
+			"title": "Java Lab",
+			"venue": "GDN130",
+			"timings": [
+				9,
+				51,
+				11,
+				30
+			]
+		},
+		{
 			"title": "English",
 			"venue": "MB306A",
 			"timings": [
@@ -36,12 +46,22 @@
 			"timings": [
 				18,
 				0,
-				11,
-				30
+				18,
+				50
 			]
 		}
 	],
 	[
+		{
+			"title": "Chemistry Lab",
+			"venue": "PRPG07",
+			"timings": [
+				9,
+				51,
+				11,
+				30
+			]
+		},
 		{
 			"title": "Chemistry",
 			"venue": "PRP120",
@@ -78,12 +98,22 @@
 			"timings": [
 				17,
 				0,
-				11,
-				30
+				17,
+				50
 			]
 		}
 	],
 	[
+		{
+			"title": "BEEE Lab",
+			"venue": "SJT520",
+			"timings": [
+				8,
+				0,
+				9,
+				40
+			]
+		},
 		{
 			"title": "Differential Equations",
 			"venue": "PRP122",
@@ -110,12 +140,22 @@
 			"timings": [
 				17,
 				0,
-				9,
-				40
+				17,
+				50
 			]
 		}
 	],
 	[
+		{
+			"title": "English Lab",
+			"venue": "SJT720",
+			"timings": [
+				9,
+				51,
+				11,
+				30
+			]
+		},
 		{
 			"title": "Java",
 			"venue": "MB307A",
@@ -172,12 +212,22 @@
 			"timings": [
 				18,
 				0,
-				11,
-				30
+				18,
+				50
 			]
 		}
 	],
 	[
+		{
+			"title": "Java Lab",
+			"venue": "GDN130",
+			"timings": [
+				8,
+				0,
+				9,
+				40
+			]
+		},
 		{
 			"title": "Sociology",
 			"venue": "PRP209",
@@ -194,8 +244,8 @@
 			"timings": [
 				15,
 				0,
-				9,
-				40
+				15,
+				50
 			]
 		}
 	],

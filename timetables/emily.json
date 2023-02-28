@@ -177,13 +177,23 @@
 			]
 		},
 		{
+			"title": "DSA Lab",
+			"venue": "PRP118a",
+			"timings": [
+				14,
+				0,
+				15,
+				40
+			]
+		},
+		{
 			"title": "Sociology",
 			"venue": "PRP209",
 			"timings": [
 				17,
 				0,
-				15,
-				40
+				17,
+				50
 			]
 		}
 	],
