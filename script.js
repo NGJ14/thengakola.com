@@ -1,35 +1,40 @@
 $(".logo").dblclick(function () {
   // document.documentElement.requestFullscreen();
+  $('body').css('background', "url('./images/appBG.jpg')")
+  $(".logo").css("display",'none');
   var step1 = 1;
   var step3 = 0;
   setInterval(function () {
-    if ($(".logo").css("opacity") >= "0") {
-      step1 -= 0.04;
-      $(".logo").css("opacity", `${step1}`);
-    }
-    if ($(".logo").css("opacity") <= "0") {
+    // if ($(".logo").css("opacity") >= "0") {
+    //   step1 -= 0.04;
+    //   $(".logo").css("opacity", `${step1}`);
+    // }
+    // if ($(".logo").css("opacity") <= "0") {
       step3 += 0.03;
       $(".main").css("opacity", `${step3}`);
       $(".appbar").css("opacity", `${step3}`);
-    }
-    setTimeout(function () {
-      $(".logo").css("display", "none");
-    }, 1000);
-  },15);
+    // }
+    // setTimeout(function () {
+    //   $(".logo").css("display", "none");
+    // }, 1000);
+  }, 15);
 });
 
 // Dropdown icon rotation
 state = 1;
-$('.bottom').click(function(){
+$(".bottom").click(function () {
   elem = $(this).children("")[0];
-  
-  $({rotation: 180*!state}).animate({rotation: 180*state}, {
-    duration: 250,
-    step: function(now) {
-      $(elem).css({'transform' : 'rotate('+ now +'deg)'});
+
+  $({ rotation: 180 * !state }).animate(
+    { rotation: 180 * state },
+    {
+      duration: 250,
+      step: function (now) {
+        $(elem).css({ transform: "rotate(" + now + "deg)" });
+      },
     }
-  });
-  state=!state;
+  );
+  state = !state;
 });
 
 $(".fa-chevron-down").click(function () {
@@ -97,32 +102,31 @@ function writeData(name, periodsToday) {
   const card = $("." + name);
 
   // Hide bottom class when no upcoming classes
-  if (i >= periodsToday.length-1) {
+  if (i >= periodsToday.length - 1) {
     card.find(".bottom").find("i").css("visibility", "hidden");
-    card.find(".bottom").css("display", "none");
-    card.find(".currentBox").css("border-bottom", "3px solid var(--accent)");
-    card.find(".currentBox").css("border-bottom-right-radius", "20px");
+    card.find(".fa-chevron-down").css("display", "none");
+    card.find(".lastClass").toggleClass("hidden");
+    // card.find(".currentBox").css("border-bottom", "3px solid var(--accent)");
+    // card.find(".currentBox").css("border-bottom-right-radius", "20px");
 
     // Display banner and change avatar position when free for the rest of the day
     if (i == periodsToday.length) {
       color = "free";
-      
+
       card.find(".right").css("display", "none");
       card.find(".timeloc").css("display", "none");
       card.find(".subName").css("display", "none");
       card.find(".avatar").css("position", "absolute");
       card.find(".avatar").css("right", "15px");
-      // card.find(".currentBox").addClass('freeBanner');
-      // card.find(".currentBox").css("background-size", "cover");
-    } 
-    // else if (period["timings"].length == 1) {
-    //   card.find(".bottom").css("display", "none");
-    //   card.find(".lastClass").css('display','');
-    // }
-    else {
+      card.find(".lastClass").css("display", "none");
+      card.find(".currentBox").css("border-bottom", "3px solid var(--accent)");
+      card.find(".currentBox").css("border-bottom-right-radius", "20px");
+      card.find(".bottom").css("display", "none");
+    } else {
       card.find(".timeloc").css("display", "");
       card.find(".subName").css("display", "");
       card.find(".right").css("display", "");
+      card.find(".bottom").css("display", "");
       card.find(".currentBox").css("background", "#000");
     }
   } else {

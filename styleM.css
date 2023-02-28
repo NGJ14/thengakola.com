@@ -46,7 +46,7 @@
 
 body {
     font-family: 'Tilt Neon', cursive;
-    background: url('./images/appBG.jpg');
+    background: white;
     background-attachment: fixed;
 }
 
