@@ -17,7 +17,8 @@ COURSE_TITLES = {
     "BECE201": "Electronic Materials and Devices",
     "BECE203": "Circuit Theory",
     "BENG101": "English",
-    "BSTS101": "QSP"
+    "BSTS101": "QSP",
+    "BHUM106": "Sociology"
 }
 
 def timings_to_datetimes(start, end):
