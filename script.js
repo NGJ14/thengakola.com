@@ -128,7 +128,16 @@ function writeData(name, periodsToday) {
     card.find(".bottom").css("display", "none");
     card.find(".currentBox").css("border-bottom", "3px solid var(--accent)");
     card.find(".currentBox").css("border-bottom-right-radius", "20px");
-  } else {
+    card.find(".avatar").css("position", "absolute");
+    card.find(".avatar").css("right", "15px");
+    // card.find(".currentBox").addClass('freeBanner');
+    // card.find(".currentBox").css("background-size", "cover");
+  } 
+  // else if (period["timings"].length == 1) {
+  //   card.find(".bottom").css("display", "none");
+  //   card.find(".lastClass").css('display','');
+  // }
+  else {
     card.find(".bottom").find("i").css("visibility", "visible");
     card.find(".timeloc").css("display", "");
     card.find(".subName").css("display", "");
@@ -136,6 +145,7 @@ function writeData(name, periodsToday) {
     card.find(".bottom").css("display", "");
     card.find(".currentBox").css("border-bottom", "none");
     card.find(".currentBox").css("border-bottom-right-radius", "0");
+    card.find(".currentBox").css("background", "#000");
   }
   card.find(".avatar").css("border", `3px dashed var(--${color})`);
   card.find(".right").css("border", `3px solid var(--${color})`);

@@ -2,13 +2,9 @@
 
 
 :root{
-    /* --theme:paleturquoise; */
-    /* --theme:palevioletred; */
-    /* --theme:palegoldenrod; */
     --free:rgb(149, 216, 149);
     --busy: rgb(236, 116, 116);
-    --to-be-busy: rgb(212, 174, 70);
-    /* --accent: palegoldenrod; */
+    --to-be-busy: rgb(199, 188, 86);  
     --accent: lightgray;
 }
 
@@ -96,19 +92,69 @@ i {
     /* height: 130px; */
 }
 
+/* .naveen .card .currentBox{
+    background: url(./images/ngjbanner.png);
+        background-size: cover;
+}
+.rohan .card .currentBox {
+    background: url(./images/robanner.jpg);
+    background-size: cover;
+}
+.justus .card .currentBox {
+    background: url(./images/jusbanner.jpg);
+    background-size: cover;
+}
+.teena .card .currentBox {
+    background: url(./images/teebanner.jpg);
+    background-size: cover;
+}
+.annie .card .currentBox {
+    background: url(./images/anbanner.jpg);
+    background-size: cover;
+}
+.yami .card .currentBox {
+    background: url(./images/yabanner.jpg);
+    background-size: cover;
+}
+.niranjana .card .currentBox {
+    background: url(./images/nirbanner.jpg);
+    background-size: cover;
+}.arsha .card .currentBox {
+    background: url(./images/arbanner.jpg);
+    background-size: cover;
+}.georgy .card .currentBox {
+    background: url(./images/gebanner.jpeg);
+    background-size: cover;
+}.merlin .card .currentBox {
+    background: url(./images/mebanner.jpg);
+    background-size: cover;
+}
+.neha .card .currentBox {
+    background: url(./images/nebanner.jpeg);
+    background-size: cover;
+}
+.emily .card .currentBox {
+    background: url(./images/embanner.jpg);
+    background-size: cover;
+} */
+
+
 .currentBox {
     height: 110px;
     display: grid;
     border: 3px solid var(--accent);
     grid-template-columns: 25% 75%;
-    background: #000;
+    background: url(./images/banner.jpg);
+    background-size: cover;
     border-bottom-right-radius: 0%;
     border-bottom-left-radius: 0%;
     border-top-right-radius: 0%;
     border-top-left-radius: 20px;
     border-bottom: none;
 }
-
+.freeBanner{
+    background: url(./images/banner.jpg);
+}
 .fa-chevron-down {
     color: var(--accent);
     padding: 4px 48%;
@@ -117,6 +163,8 @@ i {
 }
 
 .avatar {
+    /* position: absolute; */
+    /* right: 15px; */
     object-fit: contain;
     height: 5.9rem;
     margin-left: 4px;
@@ -197,6 +245,7 @@ i {
     /* margin: 0 5px; */
     font-size: 1rem;
     display: flex;
+    flex-direction: column;
     border: 3px solid var(--accent);
     border-top: none;
     align-items: center;
@@ -207,6 +256,10 @@ i {
     border-bottom-right-radius: 20px;
     border-top-left-radius: 0%;
     text-align: center;
+}
+.lastClass{
+    color:var(--accent);
+    font-size: 1.2rem;
 }
 
 .middle {
