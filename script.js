@@ -23,7 +23,7 @@ $('.bottom').click(function(){
   elem = $(this).children("")[0];
   
   $({rotation: 180*!state}).animate({rotation: 180*state}, {
-    duration: 500,
+    duration: 250,
     step: function(now) {
       $(elem).css({'transform' : 'rotate('+ now +'deg)'});
     }
