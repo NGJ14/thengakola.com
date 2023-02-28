@@ -18,6 +18,7 @@ $(".logo").dblclick(function () {
   },15);
 });
 
+// Dropdown icon rotation
 state = 1;
 $('.bottom').click(function(){
   elem = $(this).children("")[0];
@@ -57,16 +58,16 @@ function createTimeString(timings) {
 function writeData(name, periodsToday) {
   console.log("processing " + name + "...");
   var period = {
-    title: "No more today, enjoy!",
+    title: "",
     venue: "",
     timings: [],
   };
 
   var color = "to-be-busy";
   // Find ongoing period
-  for (var i = periodsToday.length - 1; i >= 0; i--) {
-    let current_period = periodsToday[i];
-    let timings = current_period["timings"];
+  for (var i = 0; i < periodsToday.length; i++) {
+    period = periodsToday[i];
+    let timings = period["timings"];
 
     let start = new Date(
       now.getFullYear(),
@@ -85,59 +86,46 @@ function writeData(name, periodsToday) {
       0
     );
 
-    if (end > now) {
+    if (end >= now) {
       if (start <= now) {
         color = "busy";
       }
-      period = current_period;
-    } else {
       break;
     }
   }
 
   const card = $("." + name);
 
-  // Set class title
-  card.find(".subName")[0].innerHTML = period["title"];
-
-  // Set class timings
-  card.find(".time")[0].innerHTML = createTimeString(period["timings"]);
-
-  // Set class location
-  card.find(".location")[0].innerHTML = period["venue"];
-
-  // Set upcoming classes
-  var table = card.find("table")[0];
-  for (i += 2; i < periodsToday.length; i++) {
-    next_period = periodsToday[i];
-    table.innerHTML += `<tr>
-      <td>${createTimeString(next_period["timings"])}</td>
-      <td>${next_period["venue"]}</td>
-      <td>${next_period["title"]}</td>
-    </tr>`;
-  }
-
-  // Change color and visibilities
-  if (period["timings"].length == 0) {
-    color = "free";
-    card.find(".avatar").css("border", `3px dashed var(--${color})`);
+  // Hide bottom class when no upcoming classes
+  if (i >= periodsToday.length-1) {
     card.find(".bottom").find("i").css("visibility", "hidden");
-    card.find(".timeloc").css("display", "none");
-    card.find(".subName").css("display", "none");
-    card.find(".right").css("display", "none");
     card.find(".bottom").css("display", "none");
     card.find(".currentBox").css("border-bottom", "3px solid var(--accent)");
     card.find(".currentBox").css("border-bottom-right-radius", "20px");
-    card.find(".avatar").css("position", "absolute");
-    card.find(".avatar").css("right", "15px");
-    // card.find(".currentBox").addClass('freeBanner');
-    // card.find(".currentBox").css("background-size", "cover");
-  } 
-  // else if (period["timings"].length == 1) {
-  //   card.find(".bottom").css("display", "none");
-  //   card.find(".lastClass").css('display','');
-  // }
-  else {
+
+    // Display banner and change avatar position when free for the rest of the day
+    if (i == periodsToday.length) {
+      color = "free";
+      
+      card.find(".right").css("display", "none");
+      card.find(".timeloc").css("display", "none");
+      card.find(".subName").css("display", "none");
+      card.find(".avatar").css("position", "absolute");
+      card.find(".avatar").css("right", "15px");
+      // card.find(".currentBox").addClass('freeBanner');
+      // card.find(".currentBox").css("background-size", "cover");
+    } 
+    // else if (period["timings"].length == 1) {
+    //   card.find(".bottom").css("display", "none");
+    //   card.find(".lastClass").css('display','');
+    // }
+    else {
+      card.find(".timeloc").css("display", "");
+      card.find(".subName").css("display", "");
+      card.find(".right").css("display", "");
+      card.find(".currentBox").css("background", "#000");
+    }
+  } else {
     card.find(".bottom").find("i").css("visibility", "visible");
     card.find(".timeloc").css("display", "");
     card.find(".subName").css("display", "");
@@ -147,6 +135,8 @@ function writeData(name, periodsToday) {
     card.find(".currentBox").css("border-bottom-right-radius", "0");
     card.find(".currentBox").css("background", "#000");
   }
+
+  // Set colors
   card.find(".avatar").css("border", `3px dashed var(--${color})`);
   card.find(".right").css("border", `3px solid var(--${color})`);
   card.find(".subName").css("border-right", `3px solid var(--${color})`);
@@ -162,6 +152,26 @@ function writeData(name, periodsToday) {
   card.find(".location").css("border-left", `3px solid var(--${color})`);
   card.find(".location").css("border-bottom", `3px solid var(--${color})`);
   card.find(".location").css("border-top", `3px solid var(--${color})`);
+
+  // Set class title
+  card.find(".subName")[0].innerHTML = period["title"];
+
+  // Set class timings
+  card.find(".time")[0].innerHTML = createTimeString(period["timings"]);
+
+  // Set class location
+  card.find(".location")[0].innerHTML = period["venue"];
+
+  // Set upcoming classes
+  var table = card.find("table")[0];
+  for (i += 1; i < periodsToday.length; i++) {
+    next_period = periodsToday[i];
+    table.innerHTML += `<tr>
+      <td>${createTimeString(next_period["timings"])}</td>
+      <td>${next_period["venue"]}</td>
+      <td>${next_period["title"]}</td>
+    </tr>`;
+  }
 }
 
 const nameList = [
