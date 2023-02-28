@@ -1,0 +1,18 @@
+{
+    "id": "/",
+    "Scope": "/",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "description": "thengakola needs a website",
+    "display": "fullscreen",
+    "name": "thengakola",
+    "short_name": "thengakola",
+    "start_url": "https://ngj14.github.io/thengakola.com/",
+    "icons": [
+        {
+        "src": "images/icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+        }
+    ]
+}
