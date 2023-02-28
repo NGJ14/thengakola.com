@@ -60,7 +60,7 @@ for file in file_list:
                 if d%2==1:
                     start, end = timings_to_datetimes(lab_timings[0][i], lab_timings[1][i])
                     if timetable[d//2]:
-                        if start - timetable[d//2][-1]['end'] <= timedelta(minutes=2):
+                        if abs(start - timetable[d//2][-1]['end']) <= timedelta(minutes=2):
                             timetable[d//2][-1]['end'] = end
                             continue
                 else:
