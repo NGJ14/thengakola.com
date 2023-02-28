@@ -128,7 +128,7 @@ i {
     object-fit: contain;
     height: 5.9rem;
     margin-left: 4px;
-    border: 3px dashed var(--free);
+    border: 3px dashed var(--to-be-busy);
     border-radius: 40%;
 }
 
@@ -184,9 +184,9 @@ i {
     color: var(--theme);
     padding: 0 5px;
     margin: 0 2.5px;
-    border-right: 3px solid var(--free);
-    border-bottom: 3px solid var(--free);
-    border-top: 3px solid var(--free);
+    border-right: 3px solid var(--to-be-busy);
+    border-bottom: 3px solid var(--to-be-busy);
+    border-top: 3px solid var(--to-be-busy);
 }
 
 .location {
@@ -194,10 +194,10 @@ i {
     padding: 0 5px;
     margin: 0 2.5px;
 
-    color: var(--free);
-    border-left: 3px solid var(--free);
-    border-bottom: 3px solid var(--free);
-    border-top: 3px solid var(--free);
+    color: var(--to-be-busy);
+    border-left: 3px solid var(--to-be-busy);
+    border-bottom: 3px solid var(--to-be-busy);
+    border-top: 3px solid var(--to-be-busy);
 }
 
 .bottom {
