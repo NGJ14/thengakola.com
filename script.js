@@ -1,6 +1,6 @@
 
 $(".logo").dblclick(function () {
-  document.documentElement.requestFullscreen();
+  // document.documentElement.requestFullscreen();
   var step1 = 1;
   var step3 = 0;
   setInterval(function () {
