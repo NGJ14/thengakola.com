@@ -43,6 +43,16 @@
 	],
 	[
 		{
+			"title": "OOPS Lab",
+			"venue": "SJT218",
+			"timings": [
+				9,
+				51,
+				11,
+				30
+			]
+		},
+		{
 			"title": "BEEE",
 			"venue": "SJTG01",
 			"timings": [
@@ -88,12 +98,22 @@
 			"timings": [
 				18,
 				0,
-				11,
-				30
+				18,
+				50
 			]
 		}
 	],
 	[
+		{
+			"title": "DL & Microprocessors Lab",
+			"venue": "SJT212",
+			"timings": [
+				8,
+				0,
+				9,
+				40
+			]
+		},
 		{
 			"title": "English Lab",
 			"venue": "TT116",
@@ -130,12 +150,22 @@
 			"timings": [
 				16,
 				0,
-				9,
-				40
+				16,
+				50
 			]
 		}
 	],
 	[
+		{
+			"title": "OOPS Lab",
+			"venue": "SJT218",
+			"timings": [
+				8,
+				0,
+				9,
+				40
+			]
+		},
 		{
 			"title": "BEEE Lab",
 			"venue": "TT044",
@@ -162,8 +192,8 @@
 			"timings": [
 				16,
 				0,
-				9,
-				40
+				16,
+				50
 			]
 		}
 	],
