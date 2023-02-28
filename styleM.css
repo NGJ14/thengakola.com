@@ -171,14 +171,6 @@ i {
     color: var(--theme);
 }
 
-.subName:odd {
-    border-right: 3px solid var(--free);
-    border-bottom: 3px solid var(--free);
-    border-left: 3px solid var(--free);
-    padding: 0 5px;
-    color: var(--free);
-}
-
 .timeloc {
     display: flex;
     align-items: center;
