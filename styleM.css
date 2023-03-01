@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
 
-:root{
-    --free:rgb(149, 216, 149);
+:root {
+    --free: rgb(149, 216, 149);
     --busy: rgb(236, 116, 116);
-    --to-be-busy: rgb(199, 188, 86);  
-    --accent: rgb(210, 210, 210); 
+    --to-be-busy: rgb(180, 172, 98);
+    --accent: rgb(205, 204, 204);
 }
 
 * {
@@ -14,6 +14,7 @@
     padding: 0;
     box-sizing: border-box;
     border-radius: 6px;
+    font-family: 'Tilt Neon';
 }
 
 .startscreen {
@@ -22,7 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* display: none; */
+    display: none;
 }
 
 .logo {
@@ -51,7 +52,7 @@ body {
 
 i {
     color: var(--accent);
-}
+    padding: 5px 2px;}
 
 .empty {
     height: 55px;
@@ -139,7 +140,7 @@ i {
 
 
 .currentBox {
-    height: 110px;
+    height: 96px;
     display: grid;
     border: 3px solid var(--accent);
     grid-template-columns: 25% 75%;
@@ -151,9 +152,7 @@ i {
     border-top-left-radius: 20px;
     border-bottom: none;
 }
-.freeBanner{
-    background: url(./images/banner.jpg);
-}
+
 .fa-chevron-down {
     color: var(--accent);
     padding: 4px 48%;
@@ -165,8 +164,10 @@ i {
     /* position: absolute; */
     /* right: 15px; */
     object-fit: contain;
-    height: 5.9rem;
-    margin-left: 4px;
+    height: 5.4rem;
+    padding: 5px;
+    margin: 6px;
+    /* margin-left: 4px; */
     border: 3px dashed var(--to-be-busy);
     border-radius: 40%;
 }
@@ -174,6 +175,7 @@ i {
 .left {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .right {
@@ -189,17 +191,16 @@ i {
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
     border-top-left-radius: 0px;
-    
+
 
 }
 
 .subject {
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
-    margin: auto;
-    padding: 0 5px;
     /* margin: auto; */
+    padding: 0 5px 8px 5px;
 }
 
 .subName {
@@ -211,10 +212,11 @@ i {
 }
 
 .timeloc {
+    padding: 2.5px 5px 0 5px;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
-    margin: auto;
+    /* margin: auto; */
     color: var(--theme);
 }
 
@@ -256,8 +258,9 @@ i {
     border-top-left-radius: 0%;
     text-align: center;
 }
-.lastClass{
-    color:var(--accent);
+
+.lastClass {
+    color: var(--accent);
     font-size: 1.2rem;
 }
 

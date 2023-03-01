@@ -1,24 +1,21 @@
-$(".logo").dblclick(function () {
-  // document.documentElement.requestFullscreen();
-  $('body').css('background', "url('./images/appBG.jpg')")
-  $(".logo").css("display",'none');
-  var step1 = 1;
-  var step3 = 0;
-  setInterval(function () {
-    // if ($(".logo").css("opacity") >= "0") {
-    //   step1 -= 0.04;
-    //   $(".logo").css("opacity", `${step1}`);
-    // }
-    // if ($(".logo").css("opacity") <= "0") {
-      step3 += 0.03;
-      $(".main").css("opacity", `${step3}`);
-      $(".appbar").css("opacity", `${step3}`);
-    // }
-    // setTimeout(function () {
-    //   $(".logo").css("display", "none");
-    // }, 1000);
-  }, 15);
-});
+// $(".logo").dblclick(function () {
+//   $("body").css("background", "url('./images/appBG.jpg')");
+//   $(".logo").css("display", "none");
+//   var step1 = 1;
+//   var step3 = 0;
+//   setInterval(function () {
+
+//     step3 += 0.03;
+//     $(".main").css("opacity", `${step3}`);
+//     $(".appbar").css("opacity", `${step3}`);
+//   }, 15);
+// });
+
+$("body").css("background", "url('./images/appBG.jpg')");
+$("body").css("background-attachment", "fixed");
+$(".main").css("opacity", '1');
+$(".appbar").css("opacity", `1`);
+
 
 // Dropdown icon rotation
 state = 1;
@@ -143,7 +140,7 @@ function writeData(name, periodsToday) {
   }
 
   // Set colors
-  card.find(".avatar").css("border", `3px dashed var(--${color})`);
+  card.find(".avatar").css("border", `4px dashed var(--${color})`);
   card.find(".right").css("border", `3px solid var(--${color})`);
   card.find(".subName").css("border-right", `3px solid var(--${color})`);
   card.find(".subName").css("border-bottom", `3px solid var(--${color})`);
