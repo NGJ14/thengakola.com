@@ -3,6 +3,8 @@ $("body").css("background-attachment", "fixed");
 $(".main").css("opacity", "1");
 
 
+
+
 // Dropdown icon rotation
 state = 1;
 $(".fa-chevron-down").click(function () {
@@ -175,3 +177,14 @@ const now = new Date(Date.now());
 for (name of nameList) {
   setData(name);
 }
+
+
+function loadcontent() {
+      $(".subName").load("./index.html");
+      $(".time").load("./index.html");
+      $(".location").load("./index.html");
+    }
+
+
+setInterval(loadcontent(),30000);
+
