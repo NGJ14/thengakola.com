@@ -1,7 +1,4 @@
 $("body").css("background", "url('./images/appBG.jpg')");
-
-
-
 $("body").css("background-attachment", "fixed");
 $(".main").css("opacity", "1");
 
