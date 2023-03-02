@@ -19,6 +19,9 @@
     box-sizing: border-box;
     border-radius: 6px;
     font-family: Tilt-Neon;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .startscreen {
@@ -82,7 +85,7 @@ i {
 }
 
 .title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: var(--accent);
     font-family: 'Tilt-Neon';
     padding: 0 10px;
@@ -163,6 +166,7 @@ i {
     z-index: 0;
     /* background: white; */
 }
+
 
 .avatar {
     /* position: absolute; */
@@ -250,7 +254,7 @@ i {
     /* margin: 0 5px; */
     font-size: 1rem;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     border: 3px solid var(--accent);
     border-top: none;
     align-items: center;
@@ -276,7 +280,7 @@ i {
     border-top: 0;
     border-bottom: 0;
     border-radius: 0;
-    padding: 10px;
+    padding: 10px 0 0 0;
     display: none;
 }
 
