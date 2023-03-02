@@ -179,12 +179,3 @@ for (name of nameList) {
 }
 
 
-function loadcontent() {
-      $(".subName").load("./index.html");
-      $(".time").load("./index.html");
-      $(".location").load("./index.html");
-    }
-
-
-setInterval(loadcontent(),30000);
-
