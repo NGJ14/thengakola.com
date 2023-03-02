@@ -1,16 +1,3 @@
-// $(".logo").dblclick(function () {
-//   $("body").css("background", "url('./images/appBG.jpg')");
-//   $(".logo").css("display", "none");
-//   var step1 = 1;
-//   var step3 = 0;
-//   setInterval(function () {
-
-//     step3 += 0.03;
-//     $(".main").css("opacity", `${step3}`);
-//     $(".appbar").css("opacity", `${step3}`);
-//   }, 15);
-// });
-
 $("body").css("background", "url('./images/appBG.jpg')");
 $("body").css("background-attachment", "fixed");
 $(".main").css("opacity", '1');
@@ -104,8 +91,6 @@ function writeData(name, periodsToday) {
     card.find(".bottom").find("i").css("visibility", "hidden");
     card.find(".fa-chevron-down").css("display", "none");
     card.find(".lastClass").toggleClass("hidden");
-    // card.find(".currentBox").css("border-bottom", "3px solid var(--accent)");
-    // card.find(".currentBox").css("border-bottom-right-radius", "20px");
 
     // Display banner and change avatar position when free for the rest of the day
     if (i == periodsToday.length) {
@@ -116,8 +101,6 @@ function writeData(name, periodsToday) {
       card.find(".subName").css("display", "none");
       card.find(".avatar").css("position", "absolute");
       card.find(".avatar").css("right", "15px");
-      // card.find(".right").css("position", "absolute");
-      // card.find(".right").css("left", "15px");
       card.find(".lastClass").css("display", "none");
       card.find(".currentBox").css("border-bottom", "3px solid var(--accent)");
       card.find(".currentBox").css("border-bottom-right-radius", "20px");
