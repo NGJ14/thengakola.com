@@ -1,15 +1,15 @@
 $("body").css("background", "url('./images/appBG.jpg')");
+
+
+
 $("body").css("background-attachment", "fixed");
-$(".main").css("opacity", '1');
-$(".appbar").css("opacity", `1`);
-
-
+$(".main").css("opacity", "1");
 
 
 // Dropdown icon rotation
 state = 1;
 $(".fa-chevron-down").click(function () {
-  elem = $(this).parent().closest('div').children("")[0];
+  elem = $(this).parent().closest("div").children("")[0];
   $(this).parent().closest("div").siblings(".middle").toggleClass("hidden");
   $(this).parent().closest("div").siblings(".middle").slideToggle(300);
 
@@ -24,8 +24,6 @@ $(".fa-chevron-down").click(function () {
   );
   state = !state;
 });
-
-
 
 function setData(name) {
   let day = (now.getDay() - 1) % 7;

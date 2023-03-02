@@ -28,7 +28,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
+    /* display: none; */
 }
 
 .logo {
@@ -38,6 +38,7 @@
     z-index: 25;
     animation: beat .4s infinite alternate;
     transform-origin: center;
+    display: none;
 }
 
 @keyframes beat {
@@ -79,7 +80,6 @@ i {
     position: fixed;
     top: 0;
     z-index: 20;
-    opacity: 0;
 }
 
 .title {
