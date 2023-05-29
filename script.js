@@ -2,8 +2,20 @@ $("body").css("background", "url('./images/appBG.jpg')");
 $("body").css("background-attachment", "fixed");
 $(".main").css("opacity", "1");
 
-
-
+const nameList = [
+  "yami",
+  "teena",
+  "neha",
+  "emily",
+  "annie",
+  "merlin",
+  "niranjana",
+  "arsha",
+  "rohan",
+  "georgy",
+  "justus",
+  "naveen",
+];
 
 // Dropdown icon rotation
 state = 1;
@@ -148,34 +160,27 @@ function writeData(name, periodsToday) {
 
   // Set upcoming classes
   var table = card.find("table")[0];
-  for (i += 1; i < periodsToday.length; i++) {
-    next_period = periodsToday[i];
-    table.innerHTML += `<tr>
+  for (let j = 0; j < periodsToday.length; j++) {
+    next_period = periodsToday[j];
+    let style = ``;
+
+    if (j < i) {
+      style = `style='text-decoration: line-through; color: gray'`;
+    } else if (i == j) {
+      style = `style='background: var(--${color}); color: black'`;
+    }
+    console.log(style);
+
+    table.innerHTML += `<tr ${style}>
       <td>${createTimeString(next_period["timings"])}</td>
       <td>${next_period["venue"]}</td>
       <td>${next_period["title"]}</td>
     </tr>`;
+    console.log(table.innerHTML);
   }
 }
 
-const nameList = [
-  "yami",
-  "teena",
-  "neha",
-  "emily",
-  "annie",
-  "merlin",
-  "niranjana",
-  "arsha",
-  "rohan",
-  "georgy",
-  "justus",
-  "naveen",
-];
-
 const now = new Date(Date.now());
-for (name of nameList) {
-  setData(name);
+for (n of nameList) {
+  setData(n);
 }
-
-
