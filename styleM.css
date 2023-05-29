@@ -187,10 +187,8 @@ i {
 .pInf{
     border: 3px solid var(--status);
     margin: 5px;
-    display: grid;
     border-radius: 15px;
     color: paleturquoise;
-    grid-template-rows: 50% 50%;
     justify-content: space-around;
 }
 
@@ -224,6 +222,7 @@ i {
     justify-content: center;
     color: var(--theme);
 }
+
 .edu{
     color: var(--theme);
     padding: 0 5px;
@@ -334,4 +333,17 @@ table tbody tr td{
     padding: 0.5px 0 1px 0;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+.quote{
+    color: var(--theme);
+    font-style: italic;
+    text-align: center;
+    padding: 0 0 8px 0;
+}
+.course {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    color: var(--theme);
+    padding: 10px 0 0 0;
 }
