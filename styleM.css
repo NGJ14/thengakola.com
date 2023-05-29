@@ -22,6 +22,7 @@
     -ms-user-select: none;
     user-select: none;
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .startscreen {
