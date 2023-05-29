@@ -21,7 +21,7 @@ function writeData(periods) {
     let table = document.getElementsByTagName("table")[i];
     const periodsToday = periods[i];
     for (let j = 0; j < periodsToday.length; j++) {
-      const period = periodsToday[1];
+      const period = periodsToday[j];
       table.innerHTML += `<tr>
         <td>${createTimeString(period["timings"])}</td>
         <td>${period["venue"]}</td>
