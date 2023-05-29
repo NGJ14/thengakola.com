@@ -118,7 +118,7 @@ function writeData(name, periodsToday) {
       card.find(".subName").css("display", "");
       card.find(".right").css("display", "");
       card.find(".bottom").css("display", "");
-      card.find(".currentBox").css("background", "#0000009f");
+      card.find(".currentBox").css("background", "#000000c8");
     }
   } else {
     card.find(".bottom").find("i").css("visibility", "visible");
@@ -128,7 +128,7 @@ function writeData(name, periodsToday) {
     card.find(".bottom").css("display", "");
     card.find(".currentBox").css("border-bottom", "none");
     card.find(".currentBox").css("border-bottom-right-radius", "0");
-    card.find(".currentBox").css("background", "#0000009f");
+    card.find(".currentBox").css("background", "#000000c8");
   }
 
   // Set colors
