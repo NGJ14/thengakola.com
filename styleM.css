@@ -150,7 +150,8 @@ i {
     height: 5.4rem;
     padding: 2px;
     margin: 6px;
-    border: 3px dashed var(--to-be-busy);
+    /* border: 3px dashed var(--to-be-busy); */
+    /* border-right: none; */
     border-radius: 40%;
 }
 .pAvatar{
