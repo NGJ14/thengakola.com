@@ -94,40 +94,22 @@ function writeData(name, periodsToday) {
 
   const card = $("." + name);
 
-  // Hide bottom class when no upcoming classes
-  if (i >= periodsToday.length - 1) {
-    card.find(".bottom").find("i").css("visibility", "hidden");
-    card.find(".fa-chevron-down").css("display", "none");
-    card.find(".lastClass").toggleClass("hidden");
-
-    // Display banner and change avatar position when free for the rest of the day
-    if (i == periodsToday.length) {
-      color = "free";
-
-      card.find(".right").css("display", "none");
-      card.find(".timeloc").css("display", "none");
-      card.find(".subName").css("display", "none");
-      card.find(".avatar").css("position", "absolute");
-      card.find(".avatar").css("right", "15px");
-      card.find(".lastClass").css("display", "none");
-      card.find(".currentBox").css("border-bottom", "3px solid var(--accent)");
-      card.find(".currentBox").css("border-bottom-right-radius", "20px");
-      card.find(".bottom").css("display", "none");
-    } else {
-      card.find(".timeloc").css("display", "");
-      card.find(".subName").css("display", "");
-      card.find(".right").css("display", "");
-      card.find(".bottom").css("display", "");
-      card.find(".currentBox").css("background", "#000000c8");
-    }
+  // Change avatar position when free for the rest of the day
+  if (i == periodsToday.length) {
+    color = "free";
+    card.find(".right").css("display", "none");
+    card.find(".timeloc").css("display", "none");
+    card.find(".subName").css("display", "none");
+    card.find(".avatar").css("position", "absolute");
+    card.find(".avatar").css("right", "15px");
+    card.find(".currentBox").css("border-bottom", "3px solid var(--accent)");
+    card.find(".currentBox").css("border-bottom-right-radius", "20px");
+    card.find(".bottom").css("display", "none");
   } else {
-    card.find(".bottom").find("i").css("visibility", "visible");
     card.find(".timeloc").css("display", "");
     card.find(".subName").css("display", "");
     card.find(".right").css("display", "");
     card.find(".bottom").css("display", "");
-    card.find(".currentBox").css("border-bottom", "none");
-    card.find(".currentBox").css("border-bottom-right-radius", "0");
     card.find(".currentBox").css("background", "#000000c8");
   }
 
@@ -166,7 +148,7 @@ function writeData(name, periodsToday) {
     if (j < i) {
       style = `style='text-decoration: line-through; color: gray'`;
     } else if (i == j) {
-      style = `style='background: var(--${color}); color: #0000009f'`;
+      style = `style='background: var(--${color}); color: #000000c8'`;
     }
 
     table.innerHTML += `<tr ${style}>
