@@ -1,7 +1,7 @@
 [
 	[
 		{
-			"title": "Differential Equations",
+			"title": "Diff Eqns",
 			"venue": "TT415",
 			"timings": [
 				8,
@@ -21,7 +21,7 @@
 			]
 		},
 		{
-			"title": "Electronic Materials and Devices",
+			"title": "EMD",
 			"venue": "PRP124",
 			"timings": [
 				10,
@@ -93,7 +93,7 @@
 			]
 		},
 		{
-			"title": "Differential Equations",
+			"title": "Diff Eqns",
 			"venue": "TT415",
 			"timings": [
 				12,
@@ -115,7 +115,7 @@
 			]
 		},
 		{
-			"title": "Differential Equations",
+			"title": "Diff Eqns",
 			"venue": "TT415",
 			"timings": [
 				9,
@@ -147,7 +147,7 @@
 	],
 	[
 		{
-			"title": "Electronic Materials and Devices",
+			"title": "EMD",
 			"venue": "PRP124",
 			"timings": [
 				8,
@@ -209,7 +209,7 @@
 			]
 		},
 		{
-			"title": "Differential Equations",
+			"title": "Diff Eqns",
 			"venue": "TT415",
 			"timings": [
 				10,
@@ -229,7 +229,7 @@
 			]
 		},
 		{
-			"title": "Electronic Materials and Devices",
+			"title": "EMD",
 			"venue": "PRP124",
 			"timings": [
 				12,
