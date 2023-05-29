@@ -100,7 +100,6 @@ function writeData(name, periodsToday) {
     card.find(".fa-chevron-down").css("display", "none");
     card.find(".lastClass").toggleClass("hidden");
 
-    // Display banner and change avatar position when free for the rest of the day
     if (i == periodsToday.length) {
       color = "free";
 
