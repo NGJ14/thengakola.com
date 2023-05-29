@@ -114,9 +114,9 @@ function writeData(name, periodsToday) {
   }
 
   // Set colors
-  card.find(".avatar").css("border-bottom", `6px dotted var(--${color})`);
-  card.find(".avatar").css("border-top", `6px dotted var(--${color})`);
-  // card.find(".avatar").css("border-right", `6px dotted var(--${color})`);
+  card.find(".avatar").css("border-bottom", `5px dashed var(--${color})`);
+  // card.find(".avatar").css("border-top", `6px dashed var(--${color})`);
+  card.find(".avatar").css("border-right", `5px dashed var(--${color})`);
   card.find(".right").css("border", `3px solid var(--${color})`);
   card.find(".subName").css("border-right", `3px solid var(--${color})`);
   card.find(".subName").css("border-bottom", `3px solid var(--${color})`);
