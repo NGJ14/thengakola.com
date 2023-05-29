@@ -105,7 +105,8 @@ i {
     display: grid;
     border: 3px solid var(--accent);
     grid-template-columns: 25% 75%;
-    background: url(./images/banner.jpg);
+    /* background: rgba(0, 255, 0, 0.257); */
+    /* background: #000; */
     background-size: cover;
     border-bottom-right-radius: 0%;
     border-bottom-left-radius: 0%;
@@ -149,7 +150,8 @@ i {
     height: 5.4rem;
     padding: 2px;
     margin: 6px;
-    border: 3px dashed var(--to-be-busy);
+    /* border: 3px dashed var(--to-be-busy); */
+    /* border-right: none; */
     border-radius: 40%;
 }
 .pAvatar{
@@ -314,7 +316,7 @@ td {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
-table tbody tr{
+.dayTable table tbody tr{
     display: flex;
     border-bottom: 1.8px solid var(--to-be-busy);
     padding: 2px;
