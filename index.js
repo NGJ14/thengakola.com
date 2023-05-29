@@ -55,7 +55,6 @@ function createTimeString(timings) {
 }
 
 function writeData(name, periodsToday) {
-  console.log("processing " + name + "...");
   var period = {
     title: "",
     venue: "",
@@ -169,14 +168,12 @@ function writeData(name, periodsToday) {
     } else if (i == j) {
       style = `style='background: var(--${color}); color: black'`;
     }
-    console.log(style);
 
     table.innerHTML += `<tr ${style}>
       <td>${createTimeString(next_period["timings"])}</td>
       <td>${next_period["venue"]}</td>
       <td>${next_period["title"]}</td>
     </tr>`;
-    console.log(table.innerHTML);
   }
 }
 
