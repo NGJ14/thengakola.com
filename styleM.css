@@ -110,20 +110,21 @@ i {
     border-bottom: none;
 }
 .pCard{
-    background: #000;
+    background: #0000009f;
     margin: 4px;
     padding: 3px;
 }
 .personBox{
-    height: 110px;
-    display: grid;
+    /* height: 110px; */
+    display: flex;
+    flex-direction: column;
     border: 3px solid var(--accent);
-    grid-template-columns: 25% 75%;
     background-size: cover;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 0%;
-    border-top-right-radius: 0%;
-    border-top-left-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 0px;
+    padding: 5px 0 10px 0;
 }
 
 .fa-chevron-down {
@@ -143,10 +144,10 @@ i {
 }
 .pAvatar{
     object-fit: contain;
-    height: 5.4rem;
-    padding: 5px;
+    height: 9rem;
+    /* padding: 2px; */
     margin: 6px;
-    border: 5px dashed white;
+    border: 3px solid white;
     border-radius: 40%;
 }
 
@@ -160,7 +161,7 @@ i {
     border: 3px solid var(--status);
     margin: 5px;
     display: grid;
-    background: #000000;
+    background: #0000009f;
     border-radius: 15px;
     color: paleturquoise;
     grid-template-rows: 50% 50%;
@@ -236,7 +237,7 @@ i {
 }
 
 .bottom {
-    background: rgb(0, 0, 0);
+    background: #0000009f;
     font-size: 1rem;
     display: flex;
     border: 3px solid var(--accent);
@@ -256,7 +257,7 @@ i {
 }
 
 .middle {
-    background: #000000;
+    background: #0000009f;
     color: var(--accent);
     border-right: 3px solid var(--accent);
     border-left: 3px solid var(--accent);
