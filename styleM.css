@@ -280,8 +280,7 @@ table {
 }
 
 td {
-    border-radius: 0;
-    border: 1px solid var(--accent);
-    margin: 0;
+    border: none;
+    border-radius: 3px;
     text-align: center;
 }
