@@ -100,10 +100,12 @@ function writeData(name, periodsToday) {
     card.find(".right").css("display", "none");
     card.find(".timeloc").css("display", "none");
     card.find(".subName").css("display", "none");
-    card.find(".avatar").css("position", "absolute");
+    // card.find(".avatar").css("position", "absolute");
     card.find(".avatar").css("right", "15px");
     card.find(".currentBox").css("border-bottom", "3px solid var(--accent)");
     card.find(".currentBox").css("border-bottom-right-radius", "20px");
+    card.find(".currentBox").css("height", "107px");
+    card.find(".currentBox").css("background", "#000000c8");
     card.find(".bottom").css("display", "none");
   } else {
     card.find(".timeloc").css("display", "");
