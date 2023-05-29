@@ -37,7 +37,7 @@ $(".fa-chevron-down").click(function () {
 });
 
 function setData(name) {
-  let day = (now.getDay() - 1) % 7;
+  const day = (now.getDay() - 1) % 7;
   fetch("./timetables/" + name + ".json")
     .then((response) => response.json())
     .then((json) => writeData(name, json[day]));

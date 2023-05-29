@@ -1,5 +1,5 @@
 const name = location.href.split("/").pop().slice(0, -5);
-const now = new Date(Date.now());
+const day = (new Date(Date.now()).getDay() - 1) % 7;
 
 fetch("./timetables/" + name + ".json")
   .then((response) => response.json())
@@ -18,7 +18,7 @@ function createTimeString(timings) {
 
 function writeData(periods) {
   for (let i = 0; i < 5; i++) {
-    let table = document.getElementsByTagName("table")[i];
+    let table = $("table")[i];
     const periodsToday = periods[i];
     for (let j = 0; j < periodsToday.length; j++) {
       const period = periodsToday[j];
@@ -27,6 +27,11 @@ function writeData(periods) {
         <td>${period["venue"]}</td>
         <td>${period["title"]}</td>
       </tr>`;
+    }
+    if (day == i) {
+      $(".dayName")[day].style.background = "var(--busy)";
+      table.style.border = "2px solid var(--busy)";
+      $(table).find("tr").css("border-bottom", "1.8px solid var(--busy)");
     }
   }
 }
