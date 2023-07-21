@@ -1,8 +1,8 @@
 [
 	[
 		{
-			"title": "Diff Eqns",
-			"venue": "TT415",
+			"title": "BMAT201",
+			"venue": "MB107",
 			"timings": [
 				8,
 				0,
@@ -11,8 +11,8 @@
 			]
 		},
 		{
-			"title": "QSP",
-			"venue": "TT416",
+			"title": "BECE102",
+			"venue": "TT523",
 			"timings": [
 				9,
 				0,
@@ -21,8 +21,8 @@
 			]
 		},
 		{
-			"title": "EMD",
-			"venue": "PRP124",
+			"title": "BECE205",
+			"venue": "TT523",
 			"timings": [
 				10,
 				0,
@@ -31,8 +31,8 @@
 			]
 		},
 		{
-			"title": "Chemistry",
-			"venue": "PRP123",
+			"title": "BECE202",
+			"venue": "TT504",
 			"timings": [
 				11,
 				0,
@@ -41,8 +41,8 @@
 			]
 		},
 		{
-			"title": "Java",
-			"venue": "PRP120",
+			"title": "BECE206",
+			"venue": "TT530",
 			"timings": [
 				12,
 				0,
@@ -51,144 +51,8 @@
 			]
 		},
 		{
-			"title": "English Lab",
-			"venue": "TT306",
-			"timings": [
-				15,
-				51,
-				17,
-				30
-			]
-		}
-	],
-	[
-		{
-			"title": "Chemistry",
-			"venue": "PRP123",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "English",
-			"venue": "TT414",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "Circuit Theory",
-			"venue": "PRP116",
-			"timings": [
-				11,
-				0,
-				11,
-				50
-			]
-		},
-		{
-			"title": "Diff Eqns",
-			"venue": "TT415",
-			"timings": [
-				12,
-				0,
-				12,
-				50
-			]
-		}
-	],
-	[
-		{
-			"title": "Circuit Theory",
-			"venue": "PRP116",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "Diff Eqns",
-			"venue": "TT415",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "QSP",
-			"venue": "TT416",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "Java Lab",
-			"venue": "TT238",
-			"timings": [
-				15,
-				51,
-				17,
-				30
-			]
-		}
-	],
-	[
-		{
-			"title": "EMD",
-			"venue": "PRP124",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "Chemistry",
-			"venue": "PRP123",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "English",
-			"venue": "TT414",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "Circuit Theory",
-			"venue": "PRP116",
-			"timings": [
-				12,
-				0,
-				12,
-				50
-			]
-		},
-		{
-			"title": "Chemistry Lab",
-			"venue": "PRPG07",
+			"title": "BECE209 Lab",
+			"venue": "TT134",
 			"timings": [
 				14,
 				0,
@@ -199,8 +63,18 @@
 	],
 	[
 		{
-			"title": "Circuit Theory",
-			"venue": "PRP116",
+			"title": "BECE202",
+			"venue": "TT504",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "BECE206",
+			"venue": "TT530",
 			"timings": [
 				9,
 				0,
@@ -209,8 +83,8 @@
 			]
 		},
 		{
-			"title": "Diff Eqns",
-			"venue": "TT415",
+			"title": "BSTS202",
+			"venue": "TT504",
 			"timings": [
 				10,
 				0,
@@ -219,18 +93,8 @@
 			]
 		},
 		{
-			"title": "QSP",
-			"venue": "TT416",
-			"timings": [
-				11,
-				0,
-				11,
-				50
-			]
-		},
-		{
-			"title": "EMD",
-			"venue": "PRP124",
+			"title": "BMAT201",
+			"venue": "MB107",
 			"timings": [
 				12,
 				0,
@@ -239,13 +103,169 @@
 			]
 		},
 		{
-			"title": "Java Lab",
-			"venue": "TT238",
+			"title": "BECE102 Lab",
+			"venue": "TT422",
 			"timings": [
 				14,
 				0,
 				15,
 				40
+			]
+		},
+		{
+			"title": "BECE206 Lab",
+			"venue": "TT246",
+			"timings": [
+				17,
+				40,
+				19,
+				20
+			]
+		}
+	],
+	[
+		{
+			"title": "BECE209",
+			"venue": "TT104",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "BMAT201",
+			"venue": "MB107",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "BECE102",
+			"venue": "TT523",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "BECE205",
+			"venue": "TT523",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "BECE202",
+			"venue": "TT504",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "BECE206",
+			"venue": "TT530",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "BSTS202",
+			"venue": "TT504",
+			"timings": [
+				11,
+				0,
+				11,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "BSTS202",
+			"venue": "TT504",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "BECE209",
+			"venue": "TT104",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "BMAT201",
+			"venue": "MB107",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "BECE102",
+			"venue": "TT523",
+			"timings": [
+				11,
+				0,
+				11,
+				50
+			]
+		},
+		{
+			"title": "BECE205",
+			"venue": "TT523",
+			"timings": [
+				12,
+				0,
+				12,
+				50
+			]
+		},
+		{
+			"title": "BENG102 Lab",
+			"venue": "SJT720",
+			"timings": [
+				14,
+				0,
+				15,
+				40
+			]
+		},
+		{
+			"title": "BECE209 Lab",
+			"venue": "TT134",
+			"timings": [
+				17,
+				40,
+				19,
+				20
 			]
 		}
 	],
