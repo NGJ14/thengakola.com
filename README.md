@@ -1,2 +1,2 @@
-# thengakola.com
+# THENGAKOLA.com
 Thengakola needs a website.
