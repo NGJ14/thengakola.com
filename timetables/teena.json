@@ -1,8 +1,8 @@
 [
 	[
 		{
-			"title": "Diff Eqns",
-			"venue": "PRP309",
+			"title": "BMAT205",
+			"venue": "SJT503",
 			"timings": [
 				8,
 				0,
@@ -11,18 +11,8 @@
 			]
 		},
 		{
-			"title": "QSP",
-			"venue": "PRP111",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "OOPS",
-			"venue": "PRP111",
+			"title": "Sociology",
+			"venue": "TT423",
 			"timings": [
 				10,
 				0,
@@ -31,8 +21,8 @@
 			]
 		},
 		{
-			"title": "Physics",
-			"venue": "PRP107",
+			"title": "BECE102",
+			"venue": "SJT311",
 			"timings": [
 				11,
 				0,
@@ -41,50 +31,8 @@
 			]
 		},
 		{
-			"title": "Physics Lab",
-			"venue": "TT420",
-			"timings": [
-				14,
-				0,
-				15,
-				40
-			]
-		}
-	],
-	[
-		{
-			"title": "Physics",
-			"venue": "PRP107",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "English",
-			"venue": "PRP112",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "DSA",
-			"venue": "PRP128",
-			"timings": [
-				11,
-				0,
-				11,
-				50
-			]
-		},
-		{
-			"title": "Diff Eqns",
-			"venue": "PRP309",
+			"title": "Java",
+			"venue": "SJT324",
 			"timings": [
 				12,
 				0,
@@ -93,8 +41,18 @@
 			]
 		},
 		{
-			"title": "OOPS Lab",
-			"venue": "SJT417",
+			"title": "BSTS202",
+			"venue": "SJT404",
+			"timings": [
+				16,
+				0,
+				16,
+				50
+			]
+		},
+		{
+			"title": "BENG102 Lab",
+			"venue": "SJT721",
 			"timings": [
 				17,
 				40,
@@ -105,8 +63,8 @@
 	],
 	[
 		{
-			"title": "DSA",
-			"venue": "PRP128",
+			"title": "BECE102",
+			"venue": "SJT311",
 			"timings": [
 				8,
 				0,
@@ -115,18 +73,8 @@
 			]
 		},
 		{
-			"title": "Diff Eqns",
-			"venue": "PRP309",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "QSP",
-			"venue": "PRP111",
+			"title": "BESP101",
+			"venue": "TT423",
 			"timings": [
 				10,
 				0,
@@ -135,50 +83,28 @@
 			]
 		},
 		{
-			"title": "English Lab",
-			"venue": "SJT519",
+			"title": "BMAT201",
+			"venue": "SJT301",
 			"timings": [
-				17,
-				40,
-				19,
-				20
-			]
-		}
-	],
-	[
-		{
-			"title": "OOPS",
-			"venue": "PRP111",
-			"timings": [
-				8,
+				11,
 				0,
-				8,
+				11,
 				50
 			]
 		},
 		{
-			"title": "Physics",
-			"venue": "PRP107",
+			"title": "BMAT205",
+			"venue": "SJT503",
 			"timings": [
-				9,
+				12,
 				0,
-				9,
+				12,
 				50
 			]
 		},
 		{
-			"title": "OOPS Lab",
-			"venue": "SJT417",
-			"timings": [
-				14,
-				0,
-				15,
-				40
-			]
-		},
-		{
-			"title": "DSA Lab",
-			"venue": "PRP118a",
+			"title": "BECE102 Lab",
+			"venue": "SJT317",
 			"timings": [
 				15,
 				51,
@@ -189,8 +115,8 @@
 	],
 	[
 		{
-			"title": "English",
-			"venue": "PRP112",
+			"title": "BMAT201",
+			"venue": "SJT301",
 			"timings": [
 				8,
 				0,
@@ -199,8 +125,8 @@
 			]
 		},
 		{
-			"title": "DSA",
-			"venue": "PRP128",
+			"title": "BMAT205",
+			"venue": "SJT503",
 			"timings": [
 				9,
 				0,
@@ -209,8 +135,102 @@
 			]
 		},
 		{
-			"title": "Diff Eqns",
-			"venue": "PRP309",
+			"title": "Java Lab",
+			"venue": "SJT318",
+			"timings": [
+				14,
+				0,
+				15,
+				40
+			]
+		},
+		{
+			"title": "BSTS202",
+			"venue": "SJT404",
+			"timings": [
+				17,
+				0,
+				17,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "Sociology",
+			"venue": "TT423",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "BECE102",
+			"venue": "SJT311",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "BMAT201",
+			"venue": "SJT301",
+			"timings": [
+				12,
+				0,
+				12,
+				50
+			]
+		},
+		{
+			"title": "BSTS202",
+			"venue": "SJT404",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "Java Lab",
+			"venue": "SJT318",
+			"timings": [
+				17,
+				40,
+				19,
+				20
+			]
+		}
+	],
+	[
+		{
+			"title": "BESP101",
+			"venue": "TT423",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "BMAT201",
+			"venue": "SJT301",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "BMAT205",
+			"venue": "SJT503",
 			"timings": [
 				10,
 				0,
@@ -219,12 +239,12 @@
 			]
 		},
 		{
-			"title": "QSP",
-			"venue": "PRP111",
+			"title": "Sociology",
+			"venue": "TT423",
 			"timings": [
-				11,
+				12,
 				0,
-				11,
+				12,
 				50
 			]
 		}

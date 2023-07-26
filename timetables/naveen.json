@@ -1,70 +1,8 @@
 [
 	[
 		{
-			"title": "Java Lab",
-			"venue": "GDN130",
-			"timings": [
-				9,
-				51,
-				11,
-				30
-			]
-		},
-		{
-			"title": "English",
-			"venue": "MB306A",
-			"timings": [
-				15,
-				0,
-				15,
-				50
-			]
-		},
-		{
-			"title": "BEEE",
-			"venue": "SMVG10",
-			"timings": [
-				16,
-				0,
-				16,
-				50
-			]
-		},
-		{
-			"title": "Chemistry",
-			"venue": "PRP120",
-			"timings": [
-				17,
-				0,
-				17,
-				50
-			]
-		},
-		{
-			"title": "QSP",
-			"venue": "PRP122",
-			"timings": [
-				18,
-				0,
-				18,
-				50
-			]
-		}
-	],
-	[
-		{
-			"title": "Chemistry Lab",
-			"venue": "PRPG07",
-			"timings": [
-				9,
-				51,
-				11,
-				30
-			]
-		},
-		{
-			"title": "Chemistry",
-			"venue": "PRP120",
+			"title": "BMEE203",
+			"venue": "MB213",
 			"timings": [
 				14,
 				0,
@@ -73,18 +11,8 @@
 			]
 		},
 		{
-			"title": "QSP",
-			"venue": "PRP122",
-			"timings": [
-				15,
-				0,
-				15,
-				50
-			]
-		},
-		{
-			"title": "Sociology",
-			"venue": "PRP209",
+			"title": "BMAT201",
+			"venue": "MB211",
 			"timings": [
 				16,
 				0,
@@ -93,8 +21,8 @@
 			]
 		},
 		{
-			"title": "Diff Eqns",
-			"venue": "PRP122",
+			"title": "BMEE209",
+			"venue": "MB212",
 			"timings": [
 				17,
 				0,
@@ -105,8 +33,134 @@
 	],
 	[
 		{
-			"title": "BEEE Lab",
-			"venue": "SJT520",
+			"title": "BMEE209 Lab",
+			"venue": "GDN139",
+			"timings": [
+				9,
+				51,
+				11,
+				30
+			]
+		},
+		{
+			"title": "BMEE209",
+			"venue": "MB212",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "BSTS202",
+			"venue": "MB106",
+			"timings": [
+				16,
+				0,
+				16,
+				50
+			]
+		},
+		{
+			"title": "BMEE202",
+			"venue": "MB213",
+			"timings": [
+				17,
+				0,
+				17,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "BMEE202 Lab",
+			"venue": "GDNG10A",
+			"timings": [
+				9,
+				51,
+				11,
+				30
+			]
+		},
+		{
+			"title": "BMEE202",
+			"venue": "MB213",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "BMEE203",
+			"venue": "MB213",
+			"timings": [
+				15,
+				0,
+				15,
+				50
+			]
+		},
+		{
+			"title": "BMAT201",
+			"venue": "MB211",
+			"timings": [
+				17,
+				0,
+				17,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "BMEE206 Lab",
+			"venue": "MB109",
+			"timings": [
+				11,
+				40,
+				13,
+				20
+			]
+		},
+		{
+			"title": "BMAT201",
+			"venue": "MB211",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "BMEE209",
+			"venue": "MB212",
+			"timings": [
+				15,
+				0,
+				15,
+				50
+			]
+		},
+		{
+			"title": "BSTS202",
+			"venue": "MB106",
+			"timings": [
+				17,
+				0,
+				17,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "BMEE206 Lab",
+			"venue": "MB109",
 			"timings": [
 				8,
 				0,
@@ -115,40 +169,8 @@
 			]
 		},
 		{
-			"title": "Diff Eqns",
-			"venue": "PRP122",
-			"timings": [
-				14,
-				0,
-				14,
-				50
-			]
-		},
-		{
-			"title": "English",
-			"venue": "MB306A",
-			"timings": [
-				16,
-				0,
-				16,
-				50
-			]
-		},
-		{
-			"title": "BEEE",
-			"venue": "SMVG10",
-			"timings": [
-				17,
-				0,
-				17,
-				50
-			]
-		}
-	],
-	[
-		{
-			"title": "English Lab",
-			"venue": "SJT720",
+			"title": "BENG102 Lab",
+			"venue": "TT116",
 			"timings": [
 				9,
 				51,
@@ -157,18 +179,8 @@
 			]
 		},
 		{
-			"title": "Java",
-			"venue": "MB307A",
-			"timings": [
-				12,
-				0,
-				12,
-				50
-			]
-		},
-		{
-			"title": "BEEE",
-			"venue": "SMVG10",
+			"title": "BSTS202",
+			"venue": "MB106",
 			"timings": [
 				14,
 				0,
@@ -177,8 +189,8 @@
 			]
 		},
 		{
-			"title": "Chemistry",
-			"venue": "PRP120",
+			"title": "BMEE202",
+			"venue": "MB213",
 			"timings": [
 				15,
 				0,
@@ -187,8 +199,8 @@
 			]
 		},
 		{
-			"title": "QSP",
-			"venue": "PRP122",
+			"title": "BMEE203",
+			"venue": "MB213",
 			"timings": [
 				16,
 				0,
@@ -197,54 +209,12 @@
 			]
 		},
 		{
-			"title": "Sociology",
-			"venue": "PRP209",
-			"timings": [
-				17,
-				0,
-				17,
-				50
-			]
-		},
-		{
-			"title": "Diff Eqns",
-			"venue": "PRP122",
+			"title": "BMAT201",
+			"venue": "MB211",
 			"timings": [
 				18,
 				0,
 				18,
-				50
-			]
-		}
-	],
-	[
-		{
-			"title": "Java Lab",
-			"venue": "GDN130",
-			"timings": [
-				8,
-				0,
-				9,
-				40
-			]
-		},
-		{
-			"title": "Sociology",
-			"venue": "PRP209",
-			"timings": [
-				14,
-				0,
-				14,
-				50
-			]
-		},
-		{
-			"title": "Diff Eqns",
-			"venue": "PRP122",
-			"timings": [
-				15,
-				0,
-				15,
 				50
 			]
 		}
