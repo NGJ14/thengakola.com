@@ -74,11 +74,11 @@
 		},
 		{
 			"title": "BESP101",
-			"venue": "TT423",
+			"venue": "SJT423",
 			"timings": [
-				10,
+				9,
 				0,
-				10,
+				9,
 				50
 			]
 		},
@@ -177,6 +177,16 @@
 			]
 		},
 		{
+			"title": "BESP101",
+			"venue": "SJT423",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
 			"title": "BMAT201",
 			"venue": "SJT301",
 			"timings": [
@@ -208,16 +218,6 @@
 		}
 	],
 	[
-		{
-			"title": "BESP101",
-			"venue": "TT423",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
 		{
 			"title": "BMAT201",
 			"venue": "SJT301",
