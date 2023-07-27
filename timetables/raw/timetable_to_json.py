@@ -17,8 +17,14 @@ COURSE_TITLES = {
     "BECE201": "EMD",
     "BECE203": "Circuit Theory",
     "BENG101": "English",
-    "BSTS101": "QSP",
+    "BSTS202": "QSP",
     "BHUM106": "Sociology",
+    "BECE102": "DSD",
+    "BENG102": "Tech Report Writing",
+    "BESP101": "Spanish",
+    "BHUM107": "Sustain & Society",
+    "BMAT201": "Complex Variables",
+    "BMAT205": "Discrete Mathematics",
 }
 
 
