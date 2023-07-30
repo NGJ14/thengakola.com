@@ -1,18 +1,18 @@
 [
 	[
 		{
+			"title": "Discrete Mathematics",
+			"venue": "SJT402",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
 			"title": "QSP",
-			"venue": "PRP111",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "BEEE",
-			"venue": "PRP308",
+			"venue": "SJT308",
 			"timings": [
 				10,
 				0,
@@ -21,18 +21,112 @@
 			]
 		},
 		{
-			"title": "Diff Eqns",
-			"venue": "PRP308",
+			"title": "DSD",
+			"venue": "SJT422",
+			"timings": [
+				11,
+				0,
+				11,
+				50
+			]
+		},
+		{
+			"title": "Java",
+			"venue": "SJT424",
+			"timings": [
+				12,
+				0,
+				12,
+				50
+			]
+		},
+		{
+			"title": "Sustain & Society",
+			"venue": "SMVG21",
+			"timings": [
+				17,
+				0,
+				17,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "DSD",
+			"venue": "SJT422",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "Spanish",
+			"venue": "SJT423",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "Complex Variables",
+			"venue": "SJT304",
+			"timings": [
+				11,
+				0,
+				11,
+				50
+			]
+		},
+		{
+			"title": "Discrete Mathematics",
+			"venue": "SJT402",
+			"timings": [
+				12,
+				0,
+				12,
+				50
+			]
+		},
+		{
+			"title": "Sustain & Society",
+			"venue": "SMVG21",
 			"timings": [
 				14,
 				0,
 				14,
 				50
 			]
+		}
+	],
+	[
+		{
+			"title": "Complex Variables",
+			"venue": "SJT304",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
 		},
 		{
-			"title": "DSA Lab",
-			"venue": "SJT217",
+			"title": "Discrete Mathematics",
+			"venue": "SJT402",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "Tech Report Writing Lab",
+			"venue": "SJT701",
 			"timings": [
 				15,
 				51,
@@ -41,8 +135,8 @@
 			]
 		},
 		{
-			"title": "OOPS Lab",
-			"venue": "SJT318",
+			"title": "Java Lab",
+			"venue": "SJT416",
 			"timings": [
 				17,
 				40,
@@ -53,102 +147,8 @@
 	],
 	[
 		{
-			"title": "OOPS",
-			"venue": "PRP221",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "English",
-			"venue": "PRP112",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "DSA",
-			"venue": "PRP127",
-			"timings": [
-				11,
-				0,
-				11,
-				50
-			]
-		},
-		{
-			"title": "BEEE Lab",
-			"venue": "TT35A",
-			"timings": [
-				15,
-				51,
-				17,
-				30
-			]
-		},
-		{
-			"title": "Diff Eqns",
-			"venue": "PRP308",
-			"timings": [
-				18,
-				0,
-				18,
-				50
-			]
-		}
-	],
-	[
-		{
-			"title": "DSA",
-			"venue": "PRP127",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
 			"title": "QSP",
-			"venue": "PRP111",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "Diff Eqns",
-			"venue": "PRP308",
-			"timings": [
-				15,
-				0,
-				15,
-				50
-			]
-		},
-		{
-			"title": "English Lab",
-			"venue": "SJT519",
-			"timings": [
-				17,
-				40,
-				19,
-				20
-			]
-		}
-	],
-	[
-		{
-			"title": "BEEE",
-			"venue": "PRP308",
+			"venue": "SJT308",
 			"timings": [
 				8,
 				0,
@@ -157,40 +157,8 @@
 			]
 		},
 		{
-			"title": "OOPS",
-			"venue": "PRP221",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "OOPS Lab",
-			"venue": "SJT318",
-			"timings": [
-				15,
-				51,
-				17,
-				30
-			]
-		}
-	],
-	[
-		{
-			"title": "English",
-			"venue": "PRP112",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "DSA",
-			"venue": "PRP127",
+			"title": "DSD",
+			"venue": "SJT422",
 			"timings": [
 				9,
 				0,
@@ -199,18 +167,18 @@
 			]
 		},
 		{
-			"title": "QSP",
-			"venue": "PRP111",
+			"title": "Spanish",
+			"venue": "SJT423",
 			"timings": [
-				11,
+				10,
 				0,
-				11,
+				10,
 				50
 			]
 		},
 		{
-			"title": "BEEE",
-			"venue": "PRP308",
+			"title": "Complex Variables",
+			"venue": "SJT304",
 			"timings": [
 				12,
 				0,
@@ -219,13 +187,55 @@
 			]
 		},
 		{
-			"title": "Diff Eqns",
-			"venue": "PRP308",
+			"title": "Sustain & Society",
+			"venue": "SMVG21",
 			"timings": [
-				16,
+				15,
 				0,
-				16,
+				17,
+				30
+			]
+		}
+	],
+	[
+		{
+			"title": "Complex Variables",
+			"venue": "SJT304",
+			"timings": [
+				9,
+				0,
+				9,
 				50
+			]
+		},
+		{
+			"title": "Discrete Mathematics",
+			"venue": "SJT402",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "QSP",
+			"venue": "SJT308",
+			"timings": [
+				12,
+				0,
+				12,
+				50
+			]
+		},
+		{
+			"title": "Java Lab",
+			"venue": "SJT416",
+			"timings": [
+				15,
+				51,
+				17,
+				30
 			]
 		}
 	],

@@ -1,7 +1,7 @@
 [
 	[
 		{
-			"title": "BMAT205",
+			"title": "Discrete Mathematics",
 			"venue": "SJT124",
 			"timings": [
 				14,
@@ -21,7 +21,7 @@
 			]
 		},
 		{
-			"title": "BMAT201",
+			"title": "Complex Variables",
 			"venue": "SJT124",
 			"timings": [
 				17,
@@ -63,7 +63,7 @@
 			]
 		},
 		{
-			"title": "BMAT201",
+			"title": "Complex Variables",
 			"venue": "SJT124",
 			"timings": [
 				14,
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"title": "BSTS202",
+			"title": "QSP",
 			"venue": "SJT124",
 			"timings": [
 				16,
@@ -103,7 +103,7 @@
 			]
 		},
 		{
-			"title": "BMAT205",
+			"title": "Discrete Mathematics",
 			"venue": "SJT124",
 			"timings": [
 				18,
@@ -115,7 +115,7 @@
 	],
 	[
 		{
-			"title": "BENG102 Lab",
+			"title": "Tech Report Writing Lab",
 			"venue": "SJT701",
 			"timings": [
 				9,
@@ -135,7 +135,7 @@
 			]
 		},
 		{
-			"title": "BMAT205",
+			"title": "Discrete Mathematics",
 			"venue": "SJT124",
 			"timings": [
 				15,
@@ -155,7 +155,7 @@
 			]
 		},
 		{
-			"title": "BMAT201",
+			"title": "Complex Variables",
 			"venue": "SJT124",
 			"timings": [
 				18,
@@ -177,7 +177,7 @@
 			]
 		},
 		{
-			"title": "BMAT201",
+			"title": "Complex Variables",
 			"venue": "SJT124",
 			"timings": [
 				15,
@@ -197,7 +197,7 @@
 			]
 		},
 		{
-			"title": "BSTS202",
+			"title": "QSP",
 			"venue": "SJT124",
 			"timings": [
 				17,
@@ -219,7 +219,7 @@
 	],
 	[
 		{
-			"title": "BSTS202",
+			"title": "QSP",
 			"venue": "SJT124",
 			"timings": [
 				14,
@@ -239,7 +239,7 @@
 			]
 		},
 		{
-			"title": "BMAT205",
+			"title": "Discrete Mathematics",
 			"venue": "SJT124",
 			"timings": [
 				16,
