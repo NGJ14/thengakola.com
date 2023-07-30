@@ -1,7 +1,7 @@
 [
 	[
 		{
-			"title": "BMAT201",
+			"title": "Complex Variables",
 			"venue": "MB107",
 			"timings": [
 				8,
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"title": "BECE102",
+			"title": "DSD",
 			"venue": "TT523",
 			"timings": [
 				9,
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"title": "BSTS202",
+			"title": "QSP",
 			"venue": "TT504",
 			"timings": [
 				10,
@@ -93,7 +93,7 @@
 			]
 		},
 		{
-			"title": "BMAT201",
+			"title": "Complex Variables",
 			"venue": "MB107",
 			"timings": [
 				12,
@@ -103,7 +103,7 @@
 			]
 		},
 		{
-			"title": "BECE102 Lab",
+			"title": "DSD Lab",
 			"venue": "TT422",
 			"timings": [
 				14,
@@ -135,7 +135,7 @@
 			]
 		},
 		{
-			"title": "BMAT201",
+			"title": "Complex Variables",
 			"venue": "MB107",
 			"timings": [
 				9,
@@ -145,7 +145,7 @@
 			]
 		},
 		{
-			"title": "BECE102",
+			"title": "DSD",
 			"venue": "TT523",
 			"timings": [
 				10,
@@ -187,7 +187,7 @@
 			]
 		},
 		{
-			"title": "BSTS202",
+			"title": "QSP",
 			"venue": "TT504",
 			"timings": [
 				11,
@@ -199,7 +199,7 @@
 	],
 	[
 		{
-			"title": "BSTS202",
+			"title": "QSP",
 			"venue": "TT504",
 			"timings": [
 				8,
@@ -219,7 +219,7 @@
 			]
 		},
 		{
-			"title": "BMAT201",
+			"title": "Complex Variables",
 			"venue": "MB107",
 			"timings": [
 				10,
@@ -229,7 +229,7 @@
 			]
 		},
 		{
-			"title": "BECE102",
+			"title": "DSD",
 			"venue": "TT523",
 			"timings": [
 				11,
@@ -249,7 +249,7 @@
 			]
 		},
 		{
-			"title": "BENG102 Lab",
+			"title": "Tech Report Writing Lab",
 			"venue": "SJT720",
 			"timings": [
 				14,

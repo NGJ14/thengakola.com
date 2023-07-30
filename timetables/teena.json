@@ -1,7 +1,7 @@
 [
 	[
 		{
-			"title": "BMAT205",
+			"title": "Discrete Mathematics",
 			"venue": "SJT503",
 			"timings": [
 				8,
@@ -21,7 +21,7 @@
 			]
 		},
 		{
-			"title": "BECE102",
+			"title": "DSD",
 			"venue": "SJT311",
 			"timings": [
 				11,
@@ -41,7 +41,7 @@
 			]
 		},
 		{
-			"title": "BSTS202",
+			"title": "QSP",
 			"venue": "SJT404",
 			"timings": [
 				16,
@@ -51,7 +51,7 @@
 			]
 		},
 		{
-			"title": "BENG102 Lab",
+			"title": "Tech Report Writing Lab",
 			"venue": "SJT721",
 			"timings": [
 				17,
@@ -63,7 +63,7 @@
 	],
 	[
 		{
-			"title": "BECE102",
+			"title": "DSD",
 			"venue": "SJT311",
 			"timings": [
 				8,
@@ -73,7 +73,7 @@
 			]
 		},
 		{
-			"title": "BESP101",
+			"title": "Spanish",
 			"venue": "SJT423",
 			"timings": [
 				9,
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"title": "BMAT201",
+			"title": "Complex Variables",
 			"venue": "SJT301",
 			"timings": [
 				11,
@@ -93,7 +93,7 @@
 			]
 		},
 		{
-			"title": "BMAT205",
+			"title": "Discrete Mathematics",
 			"venue": "SJT503",
 			"timings": [
 				12,
@@ -103,7 +103,7 @@
 			]
 		},
 		{
-			"title": "BECE102 Lab",
+			"title": "DSD Lab",
 			"venue": "SJT317",
 			"timings": [
 				15,
@@ -115,7 +115,7 @@
 	],
 	[
 		{
-			"title": "BMAT201",
+			"title": "Complex Variables",
 			"venue": "SJT301",
 			"timings": [
 				8,
@@ -125,7 +125,7 @@
 			]
 		},
 		{
-			"title": "BMAT205",
+			"title": "Discrete Mathematics",
 			"venue": "SJT503",
 			"timings": [
 				9,
@@ -145,7 +145,7 @@
 			]
 		},
 		{
-			"title": "BSTS202",
+			"title": "QSP",
 			"venue": "SJT404",
 			"timings": [
 				17,
@@ -167,7 +167,7 @@
 			]
 		},
 		{
-			"title": "BECE102",
+			"title": "DSD",
 			"venue": "SJT311",
 			"timings": [
 				9,
@@ -177,7 +177,7 @@
 			]
 		},
 		{
-			"title": "BESP101",
+			"title": "Spanish",
 			"venue": "SJT423",
 			"timings": [
 				10,
@@ -187,7 +187,7 @@
 			]
 		},
 		{
-			"title": "BMAT201",
+			"title": "Complex Variables",
 			"venue": "SJT301",
 			"timings": [
 				12,
@@ -197,7 +197,7 @@
 			]
 		},
 		{
-			"title": "BSTS202",
+			"title": "QSP",
 			"venue": "SJT404",
 			"timings": [
 				14,
@@ -219,7 +219,7 @@
 	],
 	[
 		{
-			"title": "BMAT201",
+			"title": "Complex Variables",
 			"venue": "SJT301",
 			"timings": [
 				9,
@@ -229,7 +229,7 @@
 			]
 		},
 		{
-			"title": "BMAT205",
+			"title": "Discrete Mathematics",
 			"venue": "SJT503",
 			"timings": [
 				10,

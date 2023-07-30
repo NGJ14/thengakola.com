@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"title": "BMAT201",
+			"title": "Complex Variables",
 			"venue": "MB211",
 			"timings": [
 				16,
@@ -53,7 +53,7 @@
 			]
 		},
 		{
-			"title": "BSTS202",
+			"title": "QSP",
 			"venue": "MB106",
 			"timings": [
 				16,
@@ -105,7 +105,7 @@
 			]
 		},
 		{
-			"title": "BMAT201",
+			"title": "Complex Variables",
 			"venue": "MB211",
 			"timings": [
 				17,
@@ -127,7 +127,7 @@
 			]
 		},
 		{
-			"title": "BMAT201",
+			"title": "Complex Variables",
 			"venue": "MB211",
 			"timings": [
 				14,
@@ -147,7 +147,7 @@
 			]
 		},
 		{
-			"title": "BSTS202",
+			"title": "QSP",
 			"venue": "MB106",
 			"timings": [
 				17,
@@ -169,7 +169,7 @@
 			]
 		},
 		{
-			"title": "BENG102 Lab",
+			"title": "Tech Report Writing Lab",
 			"venue": "TT116",
 			"timings": [
 				9,
@@ -179,7 +179,7 @@
 			]
 		},
 		{
-			"title": "BSTS202",
+			"title": "QSP",
 			"venue": "MB106",
 			"timings": [
 				14,
@@ -209,7 +209,7 @@
 			]
 		},
 		{
-			"title": "BMAT201",
+			"title": "Complex Variables",
 			"venue": "MB211",
 			"timings": [
 				18,
