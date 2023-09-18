@@ -1,231 +1,271 @@
 [
 	[
 		{
-			"title": "Diff Eqns",
-			"venue": "MB307",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "BSTS101",
-			"venue": "TT416",
+			"title": "solids Lab",
+			"venue": "GDNG10A",
 			"timings": [
 				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "BEEE",
-			"venue": "MB306A",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "Mechanics",
-			"venue": "CDMM401",
-			"timings": [
-				11,
-				0,
-				11,
-				50
-			]
-		},
-		{
-			"title": "Java Lab",
-			"venue": "GDN153",
-			"timings": [
-				15,
 				51,
-				17,
+				11,
 				30
 			]
-		}
-	],
-	[
+		},
 		{
-			"title": "Mechanics",
-			"venue": "CDMM401",
+			"title": "surveying Lab",
+			"venue": "CTSG05",
 			"timings": [
-				8,
-				0,
-				8,
-				50
+				11,
+				40,
+				13,
+				20
 			]
 		},
 		{
-			"title": "English",
-			"venue": "CDMM401",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "Constr Materials",
-			"venue": "CDMM401",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "Diff Eqns",
-			"venue": "MB307",
-			"timings": [
-				12,
-				0,
-				12,
-				50
-			]
-		}
-	],
-	[
-		{
-			"title": "Diff Eqns",
-			"venue": "MB307",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "BSTS101",
-			"venue": "TT416",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "English Lab",
-			"venue": "TT116",
+			"title": "Complex Variables",
+			"venue": "TT523",
 			"timings": [
 				14,
 				0,
-				15,
-				40
+				14,
+				50
 			]
 		},
 		{
-			"title": "Java Lab",
-			"venue": "GDN153",
+			"title": "fluid",
+			"venue": "CDMM103",
+			"timings": [
+				15,
+				0,
+				15,
+				50
+			]
+		},
+		{
+			"title": "surveying",
+			"venue": "CDMM103",
+			"timings": [
+				16,
+				0,
+				16,
+				50
+			]
+		},
+		{
+			"title": "evm",
+			"venue": "CDMM103",
+			"timings": [
+				18,
+				0,
+				18,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "Tech Report Writing Lab",
+			"venue": "TT116",
+			"timings": [
+				9,
+				51,
+				11,
+				30
+			]
+		},
+		{
+			"title": "geology",
+			"venue": "CDMM103",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "evm",
+			"venue": "CDMM103",
+			"timings": [
+				15,
+				0,
+				15,
+				50
+			]
+		},
+		{
+			"title": "QSP",
+			"venue": "TT201",
+			"timings": [
+				16,
+				0,
+				16,
+				50
+			]
+		},
+		{
+			"title": "solids",
+			"venue": "CDMM103",
 			"timings": [
 				17,
+				0,
+				17,
+				50
+			]
+		},
+		{
+			"title": "Complex Variables",
+			"venue": "TT523",
+			"timings": [
+				18,
+				0,
+				18,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "solids",
+			"venue": "CDMM103",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "Complex Variables",
+			"venue": "TT523",
+			"timings": [
+				15,
+				0,
+				15,
+				50
+			]
+		},
+		{
+			"title": "fluid",
+			"venue": "CDMM103",
+			"timings": [
+				16,
+				0,
+				16,
+				50
+			]
+		},
+		{
+			"title": "surveying",
+			"venue": "CDMM103",
+			"timings": [
+				17,
+				0,
+				17,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "fluid Lab",
+			"venue": "GDN131",
+			"timings": [
+				11,
 				40,
-				19,
+				13,
 				20
 			]
-		}
-	],
-	[
+		},
 		{
-			"title": "BEEE",
-			"venue": "MB306A",
+			"title": "surveying",
+			"venue": "CDMM103",
 			"timings": [
-				8,
+				14,
 				0,
-				8,
+				14,
 				50
 			]
 		},
 		{
-			"title": "Mechanics",
-			"venue": "CDMM401",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "English",
-			"venue": "CDMM401",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "Java",
-			"venue": "CDMM401",
-			"timings": [
-				11,
-				0,
-				11,
-				50
-			]
-		}
-	],
-	[
-		{
-			"title": "Constr Materials",
-			"venue": "CDMM401",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "Diff Eqns",
-			"venue": "MB307",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "BSTS101",
-			"venue": "TT416",
-			"timings": [
-				11,
-				0,
-				11,
-				50
-			]
-		},
-		{
-			"title": "BEEE",
-			"venue": "MB306A",
-			"timings": [
-				12,
-				0,
-				12,
-				50
-			]
-		},
-		{
-			"title": "BEEE Lab",
-			"venue": "TT344",
+			"title": "geology",
+			"venue": "CDMM103",
 			"timings": [
 				15,
-				51,
+				0,
+				15,
+				50
+			]
+		},
+		{
+			"title": "evm",
+			"venue": "CDMM103",
+			"timings": [
+				16,
+				0,
+				16,
+				50
+			]
+		},
+		{
+			"title": "QSP",
+			"venue": "TT201",
+			"timings": [
 				17,
-				30
+				0,
+				17,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "evm Lab",
+			"venue": "GDN142",
+			"timings": [
+				11,
+				40,
+				13,
+				20
+			]
+		},
+		{
+			"title": "QSP",
+			"venue": "TT201",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "solids",
+			"venue": "CDMM103",
+			"timings": [
+				15,
+				0,
+				15,
+				50
+			]
+		},
+		{
+			"title": "Complex Variables",
+			"venue": "TT523",
+			"timings": [
+				16,
+				0,
+				16,
+				50
+			]
+		},
+		{
+			"title": "fluid",
+			"venue": "CDMM103",
+			"timings": [
+				17,
+				0,
+				17,
+				50
 			]
 		}
 	],

@@ -25,6 +25,12 @@ COURSE_TITLES = {
     "BHUM107": "Sustain & Society",
     "BMAT201": "Complex Variables",
     "BMAT205": "Discrete Mathematics",
+    "BCLE202":"fluid",
+    "BCLE203":"solids",
+    "BCLE204":"surveying",
+    "BCLE205":"evm",
+    "BCLE209":"geology",
+    
 }
 
 
