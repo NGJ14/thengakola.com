@@ -1,260 +1,232 @@
 [
 	[
 		{
-			"title": "Discrete Mathematics",
-			"venue": "SJT124",
+			"title": "BITE307L",
+			"venue": "SJT202",
 			"timings": [
-				14,
+				8,
 				0,
-				14,
+				8,
 				50
 			]
 		},
 		{
-			"title": "BITE201",
-			"venue": "SJT205",
+			"title": "BSTS102",
+			"venue": "SJTG01",
 			"timings": [
-				15,
+				9,
 				0,
-				15,
+				9,
 				50
 			]
 		},
 		{
-			"title": "Complex Variables",
-			"venue": "SJT124",
+			"title": "BITE304L",
+			"venue": "SJT211",
 			"timings": [
-				17,
+				10,
 				0,
-				17,
+				10,
 				50
 			]
 		},
 		{
-			"title": "BITE203",
+			"title": "BMAT202L",
+			"venue": "SJTG02",
+			"timings": [
+				11,
+				0,
+				11,
+				50
+			]
+		}
+		{
+			"title": "BITE302L",
 			"venue": "SJT802",
 			"timings": [
-				18,
+				12,
 				0,
-				18,
+				12,
 				50
 			]
 		}
 	],
 	[
 		{
-			"title": "BITE201 Lab",
-			"venue": "SJT122",
+			"title": "BMAT202L",
+			"venue": "SJTG02",
 			"timings": [
 				8,
 				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "BITE302L",
+			"venue": "SJT802",
+			"timings": [
 				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "BITE301L",
+			"venue": "SJT205",
+			"timings": [
+				11,
+				0,
+				11,
+				50
+			]
+		},
+		{
+			"title": "BITE304P",
+			"venue": "SJTG20",
+			"timings": [
+				15,
+				50,
+				17,
+				30
+			]
+		},
+		{
+			"title": "BITE307P",
+			"venue": "SJT121",
+			"timings": [
+				17,
+				40,
+				19,
+				20
+			]
+		},
+		
+	],
+	[
+		{
+			"title": "BITE301L",
+			"venue": "SJT205",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "BITE307L",
+			"venue": "SJT202",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "BSTS102P",
+			"venue": "SJTG01",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "BITE302P",
+			"venue": "SJTG17",
+			"timings": [
+				14,
+				0,
+				15,
 				40
 			]
 		},
 		{
-			"title": "Java Lab",
-			"venue": "SJTG18",
+			"title": "BMAT202P",
+			"venue": "SJT620",
 			"timings": [
-				9,
-				51,
-				11,
-				30
+				17,
+				40,
+				19,
+				20
 			]
-		},
+		}
+	],
+	[
 		{
-			"title": "Complex Variables",
-			"venue": "SJT124",
+			"title": "BITE304L",
+			"venue": "SJT211",
 			"timings": [
-				14,
+				8,
 				0,
-				14,
+				8,
 				50
 			]
 		},
 		{
-			"title": "BITE203",
+			"title": "BMAT202L",
+			"venue": "SJTG02",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "BITE302L",
 			"venue": "SJT802",
 			"timings": [
-				15,
+				10,
 				0,
-				15,
+				10,
 				50
 			]
 		},
-		{
-			"title": "QSP",
-			"venue": "SJT124",
-			"timings": [
-				16,
-				0,
-				16,
-				50
-			]
-		},
-		{
-			"title": "Sociology",
-			"venue": "SJT508",
-			"timings": [
-				17,
-				0,
-				17,
-				50
-			]
-		},
-		{
-			"title": "Discrete Mathematics",
-			"venue": "SJT124",
-			"timings": [
-				18,
-				0,
-				18,
-				50
-			]
-		}
+		
 	],
 	[
 		{
-			"title": "Tech Report Writing Lab",
-			"venue": "SJT701",
+			"title": "BITE301L",
+			"venue": "SJT205",
 			"timings": [
 				9,
-				51,
-				11,
-				30
-			]
-		},
-		{
-			"title": "Sociology",
-			"venue": "SJT508",
-			"timings": [
-				14,
 				0,
-				14,
-				50
-			]
-		},
-		{
-			"title": "Discrete Mathematics",
-			"venue": "SJT124",
-			"timings": [
-				15,
-				0,
-				15,
-				50
-			]
-		},
-		{
-			"title": "BITE201",
-			"venue": "SJT205",
-			"timings": [
-				16,
-				0,
-				16,
-				50
-			]
-		},
-		{
-			"title": "Complex Variables",
-			"venue": "SJT124",
-			"timings": [
-				18,
-				0,
-				18,
-				50
-			]
-		}
-	],
-	[
-		{
-			"title": "Java Lab",
-			"venue": "SJTG18",
-			"timings": [
 				9,
-				51,
+				50
+			]
+		},
+		{
+			"title": "BITE307L",
+			"venue": "SJT202",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "BSTS102P",
+			"venue": "SJT124",
+			"timings": [
 				11,
-				30
-			]
-		},
-		{
-			"title": "Complex Variables",
-			"venue": "SJT124",
-			"timings": [
-				15,
 				0,
-				15,
+				11,
 				50
 			]
 		},
 		{
-			"title": "BITE203",
-			"venue": "SJT802",
+			"title": "BITE304L",
+			"venue": "SJT211",
 			"timings": [
-				16,
+				12,
 				0,
-				16,
-				50
-			]
-		},
-		{
-			"title": "QSP",
-			"venue": "SJT124",
-			"timings": [
-				17,
-				0,
-				17,
-				50
-			]
-		},
-		{
-			"title": "Java",
-			"venue": "SJT205",
-			"timings": [
-				18,
-				0,
-				18,
-				50
-			]
-		}
-	],
-	[
-		{
-			"title": "QSP",
-			"venue": "SJT124",
-			"timings": [
-				14,
-				0,
-				14,
-				50
-			]
-		},
-		{
-			"title": "Sociology",
-			"venue": "SJT508",
-			"timings": [
-				15,
-				0,
-				15,
-				50
-			]
-		},
-		{
-			"title": "Discrete Mathematics",
-			"venue": "SJT124",
-			"timings": [
-				16,
-				0,
-				16,
-				50
-			]
-		},
-		{
-			"title": "BITE201",
-			"venue": "SJT205",
-			"timings": [
-				17,
-				0,
-				17,
+				12,
 				50
 			]
 		}
