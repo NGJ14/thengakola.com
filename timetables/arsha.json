@@ -1,7 +1,7 @@
 [
 	[
 		{
-			"title": "BITE307L",
+			"title": "BITE307",
 			"venue": "SJT202",
 			"timings": [
 				8,
@@ -21,7 +21,7 @@
 			]
 		},
 		{
-			"title": "BITE304L",
+			"title": "BITE304",
 			"venue": "SJT211",
 			"timings": [
 				10,
@@ -31,7 +31,7 @@
 			]
 		},
 		{
-			"title": "BMAT202L",
+			"title": "BMAT202",
 			"venue": "SJTG02",
 			"timings": [
 				11,
@@ -39,9 +39,9 @@
 				11,
 				50
 			]
-		}
+		},
 		{
-			"title": "BITE302L",
+			"title": "BITE302",
 			"venue": "SJT802",
 			"timings": [
 				12,
@@ -53,7 +53,7 @@
 	],
 	[
 		{
-			"title": "BMAT202L",
+			"title": "BMAT202",
 			"venue": "SJTG02",
 			"timings": [
 				8,
@@ -63,7 +63,7 @@
 			]
 		},
 		{
-			"title": "BITE302L",
+			"title": "BITE302",
 			"venue": "SJT802",
 			"timings": [
 				9,
@@ -73,7 +73,7 @@
 			]
 		},
 		{
-			"title": "BITE301L",
+			"title": "BITE301",
 			"venue": "SJT205",
 			"timings": [
 				11,
@@ -83,17 +83,17 @@
 			]
 		},
 		{
-			"title": "BITE304P",
+			"title": "BITE304 Lab",
 			"venue": "SJTG20",
 			"timings": [
 				15,
-				50,
+				51,
 				17,
 				30
 			]
 		},
 		{
-			"title": "BITE307P",
+			"title": "BITE307 Lab",
 			"venue": "SJT121",
 			"timings": [
 				17,
@@ -101,12 +101,11 @@
 				19,
 				20
 			]
-		},
-		
+		}
 	],
 	[
 		{
-			"title": "BITE301L",
+			"title": "BITE301",
 			"venue": "SJT205",
 			"timings": [
 				8,
@@ -116,7 +115,7 @@
 			]
 		},
 		{
-			"title": "BITE307L",
+			"title": "BITE307",
 			"venue": "SJT202",
 			"timings": [
 				9,
@@ -126,7 +125,7 @@
 			]
 		},
 		{
-			"title": "BSTS102P",
+			"title": "BSTS102",
 			"venue": "SJTG01",
 			"timings": [
 				10,
@@ -136,7 +135,7 @@
 			]
 		},
 		{
-			"title": "BITE302P",
+			"title": "BITE302 Lab",
 			"venue": "SJTG17",
 			"timings": [
 				14,
@@ -146,7 +145,7 @@
 			]
 		},
 		{
-			"title": "BMAT202P",
+			"title": "BMAT202 Lab",
 			"venue": "SJT620",
 			"timings": [
 				17,
@@ -158,7 +157,7 @@
 	],
 	[
 		{
-			"title": "BITE304L",
+			"title": "BITE304",
 			"venue": "SJT211",
 			"timings": [
 				8,
@@ -168,7 +167,7 @@
 			]
 		},
 		{
-			"title": "BMAT202L",
+			"title": "BMAT202",
 			"venue": "SJTG02",
 			"timings": [
 				9,
@@ -178,7 +177,7 @@
 			]
 		},
 		{
-			"title": "BITE302L",
+			"title": "BITE302",
 			"venue": "SJT802",
 			"timings": [
 				10,
@@ -186,12 +185,11 @@
 				10,
 				50
 			]
-		},
-		
+		}
 	],
 	[
 		{
-			"title": "BITE301L",
+			"title": "BITE301",
 			"venue": "SJT205",
 			"timings": [
 				9,
@@ -201,7 +199,7 @@
 			]
 		},
 		{
-			"title": "BITE307L",
+			"title": "BITE307",
 			"venue": "SJT202",
 			"timings": [
 				10,
@@ -211,8 +209,8 @@
 			]
 		},
 		{
-			"title": "BSTS102P",
-			"venue": "SJT124",
+			"title": "BSTS102",
+			"venue": "SJTG01",
 			"timings": [
 				11,
 				0,
@@ -221,7 +219,7 @@
 			]
 		},
 		{
-			"title": "BITE304L",
+			"title": "BITE304",
 			"venue": "SJT211",
 			"timings": [
 				12,
