@@ -1,220 +1,200 @@
 [
 	[
 		{
-			"title": "BMEE203",
-			"venue": "MB213",
-			"timings": [
-				14,
-				0,
-				14,
-				50
-			]
-		},
-		{
-			"title": "Complex Variables",
+			"title": "BSTS102",
 			"venue": "MB211",
 			"timings": [
-				16,
+				9,
 				0,
-				16,
+				9,
 				50
 			]
 		},
 		{
-			"title": "BMEE209",
-			"venue": "MB212",
+			"title": "BMEE207",
+			"venue": "MB306A",
 			"timings": [
-				17,
+				11,
 				0,
-				17,
+				11,
 				50
 			]
-		}
-	],
-	[
+		},
 		{
-			"title": "BMEE209 Lab",
-			"venue": "GDN139",
+			"title": "BMEE302",
+			"venue": "GDN129",
 			"timings": [
-				9,
+				12,
+				0,
+				12,
+				50
+			]
+		},
+		{
+			"title": "BMEE302 Lab",
+			"venue": "GDNG26",
+			"timings": [
+				15,
 				51,
-				11,
+				17,
 				30
 			]
 		},
 		{
-			"title": "BMEE209",
-			"venue": "MB212",
-			"timings": [
-				14,
-				0,
-				14,
-				50
-			]
-		},
-		{
-			"title": "QSP",
-			"venue": "MB106",
-			"timings": [
-				16,
-				0,
-				16,
-				50
-			]
-		},
-		{
-			"title": "BMEE202",
-			"venue": "MB213",
+			"title": "BMEE207 Lab",
+			"venue": "ALM 407A",
 			"timings": [
 				17,
-				0,
-				17,
-				50
-			]
-		}
-	],
-	[
-		{
-			"title": "BMEE202 Lab",
-			"venue": "GDNG10A",
-			"timings": [
-				9,
-				51,
-				11,
-				30
-			]
-		},
-		{
-			"title": "BMEE202",
-			"venue": "MB213",
-			"timings": [
-				14,
-				0,
-				14,
-				50
-			]
-		},
-		{
-			"title": "BMEE203",
-			"venue": "MB213",
-			"timings": [
-				15,
-				0,
-				15,
-				50
-			]
-		},
-		{
-			"title": "Complex Variables",
-			"venue": "MB211",
-			"timings": [
-				17,
-				0,
-				17,
-				50
-			]
-		}
-	],
-	[
-		{
-			"title": "BMEE206 Lab",
-			"venue": "MB109",
-			"timings": [
-				11,
 				40,
-				13,
+				19,
 				20
 			]
-		},
-		{
-			"title": "Complex Variables",
-			"venue": "MB211",
-			"timings": [
-				14,
-				0,
-				14,
-				50
-			]
-		},
-		{
-			"title": "BMEE209",
-			"venue": "MB212",
-			"timings": [
-				15,
-				0,
-				15,
-				50
-			]
-		},
-		{
-			"title": "QSP",
-			"venue": "MB106",
-			"timings": [
-				17,
-				0,
-				17,
-				50
-			]
 		}
 	],
 	[
 		{
-			"title": "BMEE206 Lab",
-			"venue": "MB109",
+			"title": "BMEE207",
+			"venue": "MB306A",
 			"timings": [
 				8,
 				0,
-				9,
-				40
+				8,
+				50
 			]
 		},
 		{
-			"title": "Tech Report Writing Lab",
-			"venue": "TT116",
+			"title": "BMEE302",
+			"venue": "GDN129",
 			"timings": [
 				9,
-				51,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "BMEE204",
+			"venue": "MB218",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "BMEE215",
+			"venue": "MB225",
+			"timings": [
 				11,
-				30
-			]
-		},
-		{
-			"title": "QSP",
-			"venue": "MB106",
-			"timings": [
-				14,
 				0,
-				14,
+				11,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "BMEE215",
+			"venue": "MB225",
+			"timings": [
+				8,
+				0,
+				8,
 				50
 			]
 		},
 		{
-			"title": "BMEE202",
-			"venue": "MB213",
-			"timings": [
-				15,
-				0,
-				15,
-				50
-			]
-		},
-		{
-			"title": "BMEE203",
-			"venue": "MB213",
-			"timings": [
-				16,
-				0,
-				16,
-				50
-			]
-		},
-		{
-			"title": "Complex Variables",
+			"title": "BSTS102",
 			"venue": "MB211",
 			"timings": [
-				18,
+				10,
 				0,
-				18,
+				10,
+				50
+			]
+		},
+		{
+			"title": "BMEE204 Lab",
+			"venue": "GDN131",
+			"timings": [
+				14,
+				0,
+				15,
+				40
+			]
+		}
+	],
+	[
+		{
+			"title": "BMEE207",
+			"venue": "MB306A",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "BMEE302",
+			"venue": "GDN129",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "BMEE204",
+			"venue": "MB218",
+			"timings": [
+				11,
+				0,
+				11,
+				50
+			]
+		},
+		{
+			"title": "BMEE215",
+			"venue": "MB225",
+			"timings": [
+				12,
+				0,
+				12,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "BMEE204",
+			"venue": "MB218",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "BMEE215",
+			"venue": "MB225",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "BSTS102",
+			"venue": "MB211",
+			"timings": [
+				11,
+				0,
+				11,
 				50
 			]
 		}

@@ -1,8 +1,8 @@
 [
 	[
 		{
-			"title": "Diff Eqns",
-			"venue": "TT415",
+			"title": "BMGT101",
+			"venue": "MB218",
 			"timings": [
 				8,
 				0,
@@ -11,9 +11,51 @@
 			]
 		},
 		{
-			"title": "BSTS101",
+			"title": "BSTS102",
+			"venue": "TT207",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "BECE204",
 			"venue": "TT416",
 			"timings": [
+				11,
+				0,
+				11,
+				50
+			]
+		},
+		{
+			"title": "BECE304",
+			"venue": "TT208",
+			"timings": [
+				12,
+				0,
+				12,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "BECE204",
+			"venue": "TT416",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "BECE304",
+			"venue": "TT208",
+			"timings": [
 				9,
 				0,
 				9,
@@ -21,8 +63,8 @@
 			]
 		},
 		{
-			"title": "EMD",
-			"venue": "PRP124",
+			"title": "BECE207",
+			"venue": "TT208",
 			"timings": [
 				10,
 				0,
@@ -31,8 +73,8 @@
 			]
 		},
 		{
-			"title": "Chemistry",
-			"venue": "PRP123",
+			"title": "BECE301",
+			"venue": "TT304",
 			"timings": [
 				11,
 				0,
@@ -41,18 +83,8 @@
 			]
 		},
 		{
-			"title": "Java",
-			"venue": "PRP120",
-			"timings": [
-				12,
-				0,
-				12,
-				50
-			]
-		},
-		{
-			"title": "English Lab",
-			"venue": "TT306",
+			"title": "BECE204 Lab",
+			"venue": "TT729",
 			"timings": [
 				15,
 				51,
@@ -63,8 +95,8 @@
 	],
 	[
 		{
-			"title": "Chemistry",
-			"venue": "PRP123",
+			"title": "BECE301",
+			"venue": "TT304",
 			"timings": [
 				8,
 				0,
@@ -73,8 +105,8 @@
 			]
 		},
 		{
-			"title": "English",
-			"venue": "TT414",
+			"title": "BMGT101",
+			"venue": "MB218",
 			"timings": [
 				9,
 				0,
@@ -83,50 +115,8 @@
 			]
 		},
 		{
-			"title": "Circuit Theory",
-			"venue": "PRP116",
-			"timings": [
-				11,
-				0,
-				11,
-				50
-			]
-		},
-		{
-			"title": "Diff Eqns",
-			"venue": "TT415",
-			"timings": [
-				12,
-				0,
-				12,
-				50
-			]
-		}
-	],
-	[
-		{
-			"title": "Circuit Theory",
-			"venue": "PRP116",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "Diff Eqns",
-			"venue": "TT415",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "BSTS101",
-			"venue": "TT416",
+			"title": "BSTS102",
+			"venue": "TT207",
 			"timings": [
 				10,
 				0,
@@ -135,8 +125,8 @@
 			]
 		},
 		{
-			"title": "Java Lab",
-			"venue": "TT238",
+			"title": "BECE301 Lab",
+			"venue": "TT231",
 			"timings": [
 				15,
 				51,
@@ -147,18 +137,8 @@
 	],
 	[
 		{
-			"title": "EMD",
-			"venue": "PRP124",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "Chemistry",
-			"venue": "PRP123",
+			"title": "BECE204",
+			"venue": "TT416",
 			"timings": [
 				9,
 				0,
@@ -167,8 +147,8 @@
 			]
 		},
 		{
-			"title": "English",
-			"venue": "TT414",
+			"title": "BECE304",
+			"venue": "TT208",
 			"timings": [
 				10,
 				0,
@@ -177,30 +157,30 @@
 			]
 		},
 		{
-			"title": "Circuit Theory",
-			"venue": "PRP116",
+			"title": "BECE207",
+			"venue": "TT208",
 			"timings": [
-				12,
+				11,
 				0,
-				12,
+				11,
 				50
-			]
-		},
-		{
-			"title": "Chemistry Lab",
-			"venue": "PRPG07",
-			"timings": [
-				14,
-				0,
-				15,
-				40
 			]
 		}
 	],
 	[
 		{
-			"title": "Circuit Theory",
-			"venue": "PRP116",
+			"title": "BECE207",
+			"venue": "TT208",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "BECE301",
+			"venue": "TT304",
 			"timings": [
 				9,
 				0,
@@ -209,8 +189,8 @@
 			]
 		},
 		{
-			"title": "Diff Eqns",
-			"venue": "TT415",
+			"title": "BMGT101",
+			"venue": "MB218",
 			"timings": [
 				10,
 				0,
@@ -219,8 +199,8 @@
 			]
 		},
 		{
-			"title": "BSTS101",
-			"venue": "TT416",
+			"title": "BSTS102",
+			"venue": "TT207",
 			"timings": [
 				11,
 				0,
@@ -229,23 +209,13 @@
 			]
 		},
 		{
-			"title": "EMD",
-			"venue": "PRP124",
+			"title": "BECE304 Lab",
+			"venue": "TT135",
 			"timings": [
-				12,
-				0,
-				12,
-				50
-			]
-		},
-		{
-			"title": "Java Lab",
-			"venue": "TT238",
-			"timings": [
-				14,
-				0,
 				15,
-				40
+				51,
+				17,
+				30
 			]
 		}
 	],

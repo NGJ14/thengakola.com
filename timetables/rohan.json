@@ -1,271 +1,231 @@
 [
 	[
 		{
-			"title": "Complex Variables",
-			"venue": "MB107",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "DSD",
-			"venue": "TT523",
+			"title": "BMAT202 Lab",
+			"venue": "MB109",
 			"timings": [
 				9,
-				0,
-				9,
-				50
+				51,
+				11,
+				30
 			]
 		},
 		{
-			"title": "BECE205",
-			"venue": "TT523",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "BECE202",
-			"venue": "TT504",
+			"title": "BECE301 Lab",
+			"venue": "TT232",
 			"timings": [
 				11,
-				0,
-				11,
-				50
-			]
-		},
-		{
-			"title": "BECE206",
-			"venue": "TT530",
-			"timings": [
-				12,
-				0,
-				12,
-				50
-			]
-		},
-		{
-			"title": "BECE209 Lab",
-			"venue": "TT134",
-			"timings": [
-				14,
-				0,
-				15,
-				40
-			]
-		}
-	],
-	[
-		{
-			"title": "BECE202",
-			"venue": "TT504",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "BECE206",
-			"venue": "TT530",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "QSP",
-			"venue": "TT504",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "Complex Variables",
-			"venue": "MB107",
-			"timings": [
-				12,
-				0,
-				12,
-				50
-			]
-		},
-		{
-			"title": "DSD Lab",
-			"venue": "TT422",
-			"timings": [
-				14,
-				0,
-				15,
-				40
-			]
-		},
-		{
-			"title": "BECE206 Lab",
-			"venue": "TT246",
-			"timings": [
-				17,
 				40,
-				19,
+				13,
 				20
 			]
-		}
-	],
-	[
+		},
 		{
-			"title": "BECE209",
-			"venue": "TT104",
+			"title": "BSTS102",
+			"venue": "TT207",
 			"timings": [
-				8,
+				15,
 				0,
-				8,
+				15,
 				50
 			]
 		},
 		{
-			"title": "Complex Variables",
-			"venue": "MB107",
+			"title": "BMAT202",
+			"venue": "MB211",
 			"timings": [
-				9,
+				16,
 				0,
-				9,
+				16,
 				50
 			]
 		},
 		{
-			"title": "DSD",
-			"venue": "TT523",
+			"title": "BECE204",
+			"venue": "TT304",
 			"timings": [
-				10,
+				17,
 				0,
-				10,
-				50
-			]
-		}
-	],
-	[
-		{
-			"title": "BECE205",
-			"venue": "TT523",
-			"timings": [
-				8,
-				0,
-				8,
+				17,
 				50
 			]
 		},
 		{
-			"title": "BECE202",
-			"venue": "TT504",
+			"title": "BECE304",
+			"venue": "TT301",
 			"timings": [
-				9,
+				18,
 				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "BECE206",
-			"venue": "TT530",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "QSP",
-			"venue": "TT504",
-			"timings": [
-				11,
-				0,
-				11,
+				18,
 				50
 			]
 		}
 	],
 	[
 		{
-			"title": "QSP",
-			"venue": "TT504",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "BECE209",
-			"venue": "TT104",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "Complex Variables",
-			"venue": "MB107",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "DSD",
-			"venue": "TT523",
-			"timings": [
-				11,
-				0,
-				11,
-				50
-			]
-		},
-		{
-			"title": "BECE205",
-			"venue": "TT523",
-			"timings": [
-				12,
-				0,
-				12,
-				50
-			]
-		},
-		{
-			"title": "Tech Report Writing Lab",
-			"venue": "SJT720",
+			"title": "BECE204",
+			"venue": "TT304",
 			"timings": [
 				14,
 				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "BECE304",
+			"venue": "TT301",
+			"timings": [
 				15,
+				0,
+				15,
+				50
+			]
+		},
+		{
+			"title": "BECE207",
+			"venue": "TT208",
+			"timings": [
+				16,
+				0,
+				16,
+				50
+			]
+		},
+		{
+			"title": "BECE301",
+			"venue": "TT619",
+			"timings": [
+				17,
+				0,
+				17,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "BECE304 Lab",
+			"venue": "TT135",
+			"timings": [
+				8,
+				0,
+				9,
 				40
 			]
 		},
 		{
-			"title": "BECE209 Lab",
-			"venue": "TT134",
+			"title": "BECE301",
+			"venue": "TT619",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "BSTS102",
+			"venue": "TT207",
+			"timings": [
+				16,
+				0,
+				16,
+				50
+			]
+		},
+		{
+			"title": "BMAT202",
+			"venue": "MB211",
 			"timings": [
 				17,
+				0,
+				17,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "BECE204 Lab",
+			"venue": "SJT203",
+			"timings": [
+				11,
 				40,
-				19,
+				13,
 				20
+			]
+		},
+		{
+			"title": "BMAT202",
+			"venue": "MB211",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "BECE204",
+			"venue": "TT304",
+			"timings": [
+				15,
+				0,
+				15,
+				50
+			]
+		},
+		{
+			"title": "BECE304",
+			"venue": "TT301",
+			"timings": [
+				16,
+				0,
+				16,
+				50
+			]
+		},
+		{
+			"title": "BECE207",
+			"venue": "TT208",
+			"timings": [
+				17,
+				0,
+				17,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "BECE207",
+			"venue": "TT208",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "BECE301",
+			"venue": "TT619",
+			"timings": [
+				15,
+				0,
+				15,
+				50
+			]
+		},
+		{
+			"title": "BSTS102",
+			"venue": "TT207",
+			"timings": [
+				17,
+				0,
+				17,
+				50
 			]
 		}
 	],
