@@ -1,18 +1,8 @@
 [
 	[
 		{
-			"title": "Discrete Mathematics",
-			"venue": "SJT402",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "QSP",
-			"venue": "SJT308",
+			"title": "BCSE205",
+			"venue": "PRP214",
 			"timings": [
 				10,
 				0,
@@ -21,8 +11,8 @@
 			]
 		},
 		{
-			"title": "DSD",
-			"venue": "SJT422",
+			"title": "BCSE304",
+			"venue": "PRP318",
 			"timings": [
 				11,
 				0,
@@ -31,8 +21,8 @@
 			]
 		},
 		{
-			"title": "Java",
-			"venue": "SJT301",
+			"title": "BMAT202",
+			"venue": "PRP323",
 			"timings": [
 				12,
 				0,
@@ -43,8 +33,8 @@
 	],
 	[
 		{
-			"title": "DSD",
-			"venue": "SJT422",
+			"title": "BCSE304",
+			"venue": "PRP318",
 			"timings": [
 				8,
 				0,
@@ -53,8 +43,8 @@
 			]
 		},
 		{
-			"title": "Spanish",
-			"venue": "TT201",
+			"title": "BMAT202",
+			"venue": "PRP323",
 			"timings": [
 				9,
 				0,
@@ -63,8 +53,18 @@
 			]
 		},
 		{
-			"title": "Complex Variables",
-			"venue": "SJT304",
+			"title": "BSTS102",
+			"venue": "SJT303",
+			"timings": [
+				10,
+				0,
+				10,
+				50
+			]
+		},
+		{
+			"title": "BECE204",
+			"venue": "PRP224",
 			"timings": [
 				11,
 				0,
@@ -73,8 +73,8 @@
 			]
 		},
 		{
-			"title": "Discrete Mathematics",
-			"venue": "SJT402",
+			"title": "BCSE203",
+			"venue": "PRP320",
 			"timings": [
 				12,
 				0,
@@ -83,8 +83,40 @@
 			]
 		},
 		{
-			"title": "Java Lab",
-			"venue": "SJT622",
+			"title": "BCSE301",
+			"venue": "SJT602A",
+			"timings": [
+				17,
+				0,
+				17,
+				50
+			]
+		}
+	],
+	[
+		{
+			"title": "BECE204",
+			"venue": "PRP224",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "BCSE301",
+			"venue": "SJT602A",
+			"timings": [
+				14,
+				0,
+				14,
+				50
+			]
+		},
+		{
+			"title": "BMAT202 Lab",
+			"venue": "SJT319",
 			"timings": [
 				17,
 				40,
@@ -95,8 +127,8 @@
 	],
 	[
 		{
-			"title": "Complex Variables",
-			"venue": "SJT304",
+			"title": "BCSE205",
+			"venue": "PRP214",
 			"timings": [
 				8,
 				0,
@@ -105,8 +137,8 @@
 			]
 		},
 		{
-			"title": "Discrete Mathematics",
-			"venue": "SJT402",
+			"title": "BCSE304",
+			"venue": "PRP318",
 			"timings": [
 				9,
 				0,
@@ -115,40 +147,8 @@
 			]
 		},
 		{
-			"title": "Tech Report Writing Lab",
-			"venue": "SJT701",
-			"timings": [
-				15,
-				51,
-				17,
-				30
-			]
-		}
-	],
-	[
-		{
-			"title": "QSP",
-			"venue": "SJT308",
-			"timings": [
-				8,
-				0,
-				8,
-				50
-			]
-		},
-		{
-			"title": "DSD",
-			"venue": "SJT422",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "Spanish",
-			"venue": "TT201",
+			"title": "BMAT202",
+			"venue": "PRP323",
 			"timings": [
 				10,
 				0,
@@ -157,18 +157,18 @@
 			]
 		},
 		{
-			"title": "Complex Variables",
-			"venue": "SJT304",
+			"title": "BSTS102",
+			"venue": "SJT303",
 			"timings": [
-				12,
+				11,
 				0,
-				12,
+				11,
 				50
 			]
 		},
 		{
-			"title": "Java Lab",
-			"venue": "SJT622",
+			"title": "BCSE203 Lab",
+			"venue": "SJT317",
 			"timings": [
 				14,
 				0,
@@ -177,45 +177,75 @@
 			]
 		},
 		{
-			"title": "DSD Lab",
+			"title": "BECE204 Lab",
+			"venue": "SJT515",
+			"timings": [
+				17,
+				40,
+				19,
+				20
+			]
+		}
+	],
+	[
+		{
+			"title": "BSTS102",
+			"venue": "SJT303",
+			"timings": [
+				8,
+				0,
+				8,
+				50
+			]
+		},
+		{
+			"title": "BECE204",
+			"venue": "PRP224",
+			"timings": [
+				9,
+				0,
+				9,
+				50
+			]
+		},
+		{
+			"title": "BCSE301 Lab",
+			"venue": "SJT419",
+			"timings": [
+				9,
+				51,
+				11,
+				30
+			]
+		},
+		{
+			"title": "BCSE205",
+			"venue": "PRP214",
+			"timings": [
+				12,
+				0,
+				12,
+				50
+			]
+		},
+		{
+			"title": "BCSE301",
+			"venue": "SJT602A",
+			"timings": [
+				15,
+				0,
+				15,
+				50
+			]
+		},
+		{
+			"title": "BCSE203 Lab",
 			"venue": "SJT317",
 			"timings": [
 				15,
 				51,
 				17,
 				30
-			]
-		}
-	],
-	[
-		{
-			"title": "Complex Variables",
-			"venue": "SJT304",
-			"timings": [
-				9,
-				0,
-				9,
-				50
-			]
-		},
-		{
-			"title": "Discrete Mathematics",
-			"venue": "SJT402",
-			"timings": [
-				10,
-				0,
-				10,
-				50
-			]
-		},
-		{
-			"title": "QSP",
-			"venue": "SJT308",
-			"timings": [
-				12,
-				0,
-				12,
-				50
 			]
 		}
 	],
