@@ -51,7 +51,7 @@ for file in file_list:
     inp = open(f"{name}.txt").read()
 
     # Organise input into lists
-    data = [line.split("\t") for line in inp.split("\n") if line]
+    data = [[word.strip() for word in line.split("\t")] for line in inp.split("\n") if line]
 
     # Remove 'Start', 'End', 'LAB', 'THEORY' and day names
     for i, line in enumerate(data):
